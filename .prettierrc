@@ -1,0 +1,20 @@
+{
+	"plugins": [
+		"@ianvs/prettier-plugin-sort-imports"
+	],
+	"semi": true,
+	"useTabs": true,
+	"importOrder": [
+		"<BUILT_IN_MODULES>",
+		"",
+		"<THIRD_PARTY_MODULES>",
+		"",
+		"^@/shared/images/.*$",
+		"",
+		"^@/.*$",
+		"",
+		"^(?!.*[.]s?css$)[./].*$",
+		"",
+		".s?css$"
+	]
+}

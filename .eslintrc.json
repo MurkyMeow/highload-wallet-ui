@@ -1,0 +1,23 @@
+{
+	"root": true,
+	"parser": "@typescript-eslint/parser",
+	"plugins": ["@typescript-eslint", "react-hooks"],
+	"extends": [
+		"next/core-web-vitals",
+		"plugin:react/recommended",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:import/recommended",
+		"plugin:import/typescript"
+	],
+	"rules": {
+		"@typescript-eslint/no-explicit-any": "off",
+		"@typescript-eslint/no-this-alias": "off",
+		"@typescript-eslint/no-var-requires": "off",
+		"@typescript-eslint/ban-ts-comment": "off",
+		"react/react-in-jsx-scope": "off",
+		"react/prop-types": "off",
+		"import/no-named-as-default": "off",
+		"import/no-unresolved": "off",
+		"no-var": "off"
+	}
+}

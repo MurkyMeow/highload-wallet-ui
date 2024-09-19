@@ -1,0 +1,2605 @@
+[
+  {
+    "type": "native",
+    "name": "Toncoin",
+    "symbol": "TON",
+    "image": "https://assets.dedust.io/images/ton.webp",
+    "decimals": 9,
+    "rawAddress": "native"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBlqsm144Dq6SjbPI4jjZvA1hqTIP3CvHovbIfW_t-SCALE",
+    "name": "Scaleton",
+    "symbol": "SCALE",
+    "image": "https://assets.dedust.io/images/scale.webp",
+    "decimals": 9,
+    "rawAddress": "0:65aac9b5e380eae928db3c8e238d9bc0d61a9320fdc2bc7a2f6c87d6fedf9208"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "image": "https://assets.dedust.io/images/usdt.webp",
+    "decimals": 6,
+    "source": {
+      "chain": "eip155:1",
+      "address": "",
+      "bridge": "",
+      "symbol": "USDT",
+      "name": "Tether USD"
+    },
+    "rawAddress": "0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBynBO23ywHy_CgarY9NK9FTz0yDsG82PtcbSTQgGoXwiuA",
+    "name": "TON Bridge USDT",
+    "symbol": "jUSDT",
+    "image": "https://assets.dedust.io/images/usdt-old.webp",
+    "decimals": 6,
+    "source": {
+      "chain": "eip155:1",
+      "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "bridge": "ton-bridge",
+      "symbol": "USDT",
+      "name": "Tether USD"
+    },
+    "rawAddress": "0:729c13b6df2c07cbf0a06ab63d34af454f3d320ec1bcd8fb5c6d24d0806a17c2"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAQXlWJvGbbFfE8F3oS8s87lIgdovS455IsWFaRdmJetTon",
+    "name": "JetTon",
+    "symbol": "JETTON",
+    "image": "https://assets.dedust.io/images/jetton.webp",
+    "decimals": 9,
+    "rawAddress": "0:105e5589bc66db15f13c177a12f2cf3b94881da2f4b8e7922c58569176625eb5"
+  },
+  {
+    "type": "jetton",
+    "address": "EQB-MPwrd1G6WKNkLz_VnV6WqBDd142KMQv-g1O-8QUA3728",
+    "name": "TON Bridge USDC",
+    "symbol": "jUSDC",
+    "image": "https://assets.dedust.io/images/usdc.webp",
+    "decimals": 6,
+    "source": {
+      "chain": "eip155:1",
+      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "bridge": "ton-bridge",
+      "symbol": "USDC",
+      "name": "USD Coin"
+    },
+    "rawAddress": "0:7e30fc2b7751ba58a3642f3fd59d5e96a810ddd78d8a310bfe8353bef10500df"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDcBkGHmC4pTf34x3Gm05XvepO5w60DNxZ-XT4I6-UGG5L5",
+    "name": "TON Bridge WBTC",
+    "symbol": "jWBTC",
+    "image": "https://assets.dedust.io/images/wbtc.webp",
+    "decimals": 8,
+    "source": {
+      "chain": "eip155:1",
+      "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+      "bridge": "ton-bridge",
+      "symbol": "WBTC",
+      "name": "Wrapped BTC"
+    },
+    "rawAddress": "0:dc064187982e294dfdf8c771a6d395ef7a93b9c3ad0337167e5d3e08ebe5061b"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDo_ZJyQ_YqBzBwbVpMmhbhIddKtRP99HugZJ14aFscxi7B",
+    "name": "TON Bridge DAI",
+    "symbol": "jDAI",
+    "image": "https://assets.dedust.io/images/dai.webp",
+    "decimals": 18,
+    "source": {
+      "chain": "eip155:1",
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "bridge": "ton-bridge",
+      "symbol": "DAI",
+      "name": "Dai Stablecoin"
+    },
+    "rawAddress": "0:e8fd927243f62a0730706d5a4c9a16e121d74ab513fdf47ba0649d78685b1cc6"
+  },
+  {
+    "type": "jetton",
+    "address": "EQC_1YoM8RBixN95lz7odcF3Vrkc_N8Ne7gQi7Abtlet_Efi",
+    "name": "Orbit Bridge USDT",
+    "symbol": "oUSDT",
+    "image": "https://assets.dedust.io/images/orbit-usdt.webp",
+    "decimals": 6,
+    "source": {
+      "chain": "eip155:1",
+      "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "bridge": "orbit-bridge",
+      "symbol": "USDT",
+      "name": "Tether USD"
+    },
+    "rawAddress": "0:bfd58a0cf11062c4df79973ee875c17756b91cfcdf0d7bb8108bb01bb657adfc"
+  },
+  {
+    "type": "jetton",
+    "address": "EQC61IQRl0_la95t27xhIpjxZt32vl1QQVF2UgTNuvD18W-4",
+    "name": "Orbit Bridge USDC",
+    "symbol": "oUSDC",
+    "image": "https://assets.dedust.io/images/orbit-usdc.webp",
+    "decimals": 6,
+    "source": {
+      "chain": "eip155:1",
+      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "bridge": "orbit-bridge",
+      "symbol": "USDC",
+      "name": "USD Coin"
+    },
+    "rawAddress": "0:bad48411974fe56bde6ddbbc612298f166ddf6be5d504151765204cdbaf0f5f1"
+  },
+  {
+    "type": "jetton",
+    "address": "EQANasbzD5wdVx0qikebkchrH64zNgsB38oC9PVu7rG16qNB",
+    "name": "Orbit Bridge WBTC",
+    "symbol": "oWBTC",
+    "image": "https://assets.dedust.io/images/orbit-wbtc.webp",
+    "decimals": 8,
+    "source": {
+      "chain": "eip155:1",
+      "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+      "bridge": "orbit-bridge",
+      "symbol": "BTC",
+      "name": "Wrapped BTC"
+    },
+    "rawAddress": "0:0d6ac6f30f9c1d571d2a8a479b91c86b1fae33360b01dfca02f4f56eeeb1b5ea"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAAXwH0cajPsMF-nNC5kz-SaLaeaDr4M7Q1foVwP_vOW1tR",
+    "name": "Orbit Bridge DAI",
+    "symbol": "oDAI",
+    "image": "https://assets.dedust.io/images/orbit-dai.webp",
+    "decimals": 18,
+    "source": {
+      "chain": "eip155:1",
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "bridge": "orbit-bridge",
+      "symbol": "DAI",
+      "name": "Dai Stablecoin"
+    },
+    "rawAddress": "0:005f01f471a8cfb0c17e9cd0b9933f9268b69e683af833b4357e85703ffbce5b"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDNhy-nxYFgUqzfUzImBEP67JqsyMIcyk2S5_RwNNEYku0k",
+    "name": "Staked TON by bemo",
+    "symbol": "stTON",
+    "image": "https://assets.dedust.io/images/stton-bemo.webp",
+    "decimals": 9,
+    "source": {
+      "chain": "eip155:1",
+      "address": "",
+      "bridge": "none",
+      "symbol": "stTON",
+      "name": "Staked TON by bemo"
+    },
+    "rawAddress": "0:cd872fa7c5816052acdf5332260443faec9aacc8c21cca4d92e7f47034d11892"
+  },
+  {
+    "type": "jetton",
+    "address": "EQB0SoxuGDx5qjVt0P_bPICFeWdFLBmVopHhjgfs0q-wsTON",
+    "name": "Ton Whales liquid staking token",
+    "symbol": "wsTON",
+    "image": "https://assets.dedust.io/images/wston-whales.webp",
+    "decimals": 9,
+    "source": {
+      "chain": "eip155:1",
+      "address": "",
+      "bridge": "none",
+      "symbol": "wsTON",
+      "name": "Ton Whales liquid staking token"
+    },
+    "rawAddress": "0:744a8c6e183c79aa356dd0ffdb3c80857967452c1995a291e18e07ecd2afb0b1"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCcLAW537KnRg_aSPrnQJoyYjOZkzqYp6FVmRUvN1crSazV",
+    "name": "Ambra",
+    "symbol": "AMBR",
+    "image": "https://assets.dedust.io/images/ambr.webp",
+    "decimals": 9,
+    "rawAddress": "0:9c2c05b9dfb2a7460fda48fae7409a32623399933a98a7a15599152f37572b49"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCBdxpECfEPH2wUxi1a6QiOkSf-5qDjUWqLCUuKtD-GLINT",
+    "name": "Glint Coin",
+    "symbol": "GLINT",
+    "image": "https://assets.dedust.io/images/glint.webp",
+    "decimals": 9,
+    "rawAddress": "0:81771a4409f10f1f6c14c62d5ae9088e9127fee6a0e3516a8b094b8ab43f862c"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCJbp0kBpPwPoBG-U5C-cWfP_jnksvotGfArPF50Q9Qiv9h",
+    "name": "Ton Raffles Token",
+    "symbol": "RAFF",
+    "image": "https://assets.dedust.io/images/raff.webp",
+    "decimals": 9,
+    "rawAddress": "0:896e9d240693f03e8046f94e42f9c59f3ff8e792cbe8b467c0acf179d10f508a"
+  },
+  {
+    "type": "jetton",
+    "address": "EQD0vdSA_NedR9uvbgN9EikRX-suesDxGeFg69XQMavfLqIw",
+    "name": "Bolt",
+    "symbol": "BOLT",
+    "image": "https://assets.dedust.io/images/bolt.webp",
+    "decimals": 9,
+    "rawAddress": "0:f4bdd480fcd79d47dbaf6e037d1229115feb2e7ac0f119e160ebd5d031abdf2e"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBjEw-SOe8yV2kIbGVZGrsPpLTaaoAOE87CGXI2ca4XdzXA",
+    "name": "Margaritis",
+    "symbol": "MARGA",
+    "image": "https://assets.dedust.io/images/marga.webp",
+    "decimals": 9,
+    "rawAddress": "0:63130f9239ef325769086c65591abb0fa4b4da6a800e13cec219723671ae1777"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCbKMTmEAdSnzsK85LOpaDkDH3HjujEbTePMSeirvEaNq-U",
+    "name": "Magic Crystal",
+    "symbol": "MC",
+    "image": "https://assets.dedust.io/images/mc.webp",
+    "decimals": 9,
+    "rawAddress": "0:9b28c4e61007529f3b0af392cea5a0e40c7dc78ee8c46d378f3127a2aef11a36"
+  },
+  {
+    "type": "jetton",
+    "address": "EQC-tdRjjoYMz3MXKW4pj95bNZgvRyWwZ23Jix3ph7guvHxJ",
+    "name": "KINGYTON",
+    "symbol": "KINGY",
+    "image": "https://assets.dedust.io/images/kingy.webp",
+    "decimals": 9,
+    "rawAddress": "0:beb5d4638e860ccf7317296e298fde5b35982f4725b0676dc98b1de987b82ebc"
+  },
+  {
+    "type": "jetton",
+    "address": "EQB-ajMyi5-WKIgOHnbOGApfckUGbl6tDk3Qt8PKmb-xLAvp",
+    "name": "TonexCoin",
+    "symbol": "TNX",
+    "image": "https://assets.dedust.io/images/tnx.webp",
+    "decimals": 9,
+    "rawAddress": "0:7e6a33328b9f9628880e1e76ce180a5f7245066e5ead0e4dd0b7c3ca99bfb12c"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCQZpelevHNsbw5IUtwSa4Cs8kqWww0KsYeDri9kwS18eCz",
+    "name": "DYOR Coin",
+    "symbol": "DYOR",
+    "image": "https://assets.dedust.io/images/dyor.webp",
+    "decimals": 15,
+    "rawAddress": "0:906697a57af1cdb1bc39214b7049ae02b3c92a5b0c342ac61e0eb8bd9304b5f1"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBJOJ2eL_CUFT_0r9meoqjKUwRttC_-NUJyvWQxszVWe1WY",
+    "name": "Petcoin",
+    "symbol": "PET",
+    "image": "https://assets.dedust.io/images/pet.webp",
+    "decimals": 9,
+    "rawAddress": "0:49389d9e2ff094153ff4afd99ea2a8ca53046db42ffe354272bd6431b335567b"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDNDv54v_TEU5t26rFykylsdPQsv5nsSZaH_v7JSJPtMitv",
+    "name": "Tonnel Network Token",
+    "symbol": "TONNEL",
+    "image": "https://assets.dedust.io/images/tonnel.webp",
+    "decimals": 9,
+    "rawAddress": "0:cd0efe78bff4c4539b76eab17293296c74f42cbf99ec499687fefec94893ed32"
+  },
+  {
+    "type": "jetton",
+    "address": "EQD_KpO2-iFeHPT4dF0ur9E0iAFts2fwhpR2KjwAmYKpccvH",
+    "name": "ЖЮ",
+    "symbol": "LIFEYT",
+    "image": "https://assets.dedust.io/images/lifeyt.webp",
+    "decimals": 9,
+    "rawAddress": "0:ff2a93b6fa215e1cf4f8745d2eafd13488016db367f08694762a3c009982a971"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAM2KWDp9lN0YvxvfSbI0ryjBXwM70rakpNIHbuETatRWA1",
+    "name": "ARBUZ",
+    "symbol": "ARBUZ",
+    "image": "https://assets.dedust.io/images/arbuz.webp",
+    "decimals": 9,
+    "rawAddress": "0:0cd8a583a7d94dd18bf1bdf49b234af28c15f033bd2b6a4a4d2076ee1136ad45"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCu9qafFYH1tbvBCsVg6QQwPbLinzQ27HKkr0Tb4WSobXI-",
+    "name": "MONK",
+    "symbol": "MONK",
+    "image": "https://assets.dedust.io/images/monk.webp",
+    "decimals": 9,
+    "rawAddress": "0:aef6a69f1581f5b5bbc10ac560e904303db2e29f3436ec72a4af44dbe164a86d"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCvaf0JMrv6BOvPpAgee08uQM_uRpUd__fhA7Nm8twzvbE_",
+    "name": "TonUP",
+    "symbol": "UP",
+    "image": "https://assets.dedust.io/images/up.webp",
+    "decimals": 9,
+    "rawAddress": "0:af69fd0932bbfa04ebcfa4081e7b4f2e40cfee46951dfff7e103b366f2dc33bd"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBk0iOnG6u4yVzf4HfZf7EGuetWiKbyR5GApBgblmeG-jPL",
+    "name": "RED X",
+    "symbol": "REDX",
+    "image": "https://assets.dedust.io/images/redx.webp",
+    "decimals": 9,
+    "rawAddress": "0:64d223a71babb8c95cdfe077d97fb106b9eb5688a6f2479180a4181b966786fa"
+  },
+  {
+    "type": "jetton",
+    "address": "EQD0nt2W1YwJFdMQ-GIx4jguNbvbjS-aM32jOW7hTQs58lds",
+    "name": "Grabscape governance token",
+    "symbol": "GGT",
+    "image": "https://assets.dedust.io/images/ggt.webp",
+    "decimals": 9,
+    "rawAddress": "0:f49edd96d58c0915d310f86231e2382e35bbdb8d2f9a337da3396ee14d0b39f2"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCW5g1evnQN2OZZEVe-23aSvEsgPauWZlF27ZIz5REhnWRy",
+    "name": "DEFI HUNTERS DAO",
+    "symbol": "DDAO",
+    "image": "https://assets.dedust.io/images/ddao.webp",
+    "decimals": 9,
+    "rawAddress": "0:96e60d5ebe740dd8e6591157bedb7692bc4b203dab96665176ed9233e511219d"
+  },
+  {
+    "type": "jetton",
+    "address": "EQC-A0ZHiAliPJ6LYQQZ6x2WRJC0aHEmJ_OMG6pidb5ASpIY",
+    "name": "EXTON COIN",
+    "symbol": "EXC",
+    "image": "https://assets.dedust.io/images/exc.webp",
+    "decimals": 9,
+    "rawAddress": "0:be0346478809623c9e8b610419eb1d964490b468712627f38c1baa6275be404a"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBCFwW8uFUh-amdRmNY9NyeDEaeDYXd9ggJGsicpqVcHq7B",
+    "name": "DHD Coin",
+    "symbol": "DHD",
+    "image": "https://assets.dedust.io/images/dhd.webp",
+    "decimals": 9,
+    "rawAddress": "0:421705bcb85521f9a99d466358f4dc9e0c469e0d85ddf608091ac89ca6a55c1e"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBj7uoIVsngmS-ayOz1nHENjZkjTt5mXB4uGa83hmcqq2wA",
+    "name": "Grabscape game token",
+    "symbol": "GRBS",
+    "image": "https://assets.dedust.io/images/grbs.webp",
+    "decimals": 9,
+    "rawAddress": "0:63eeea0856c9e0992f9ac8ecf59c710d8d99234ede665c1e2e19af3786672aab"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBiJ8dSbp3_YAb_KuC64zCrFqQTsFbUee5tbzr5el_HEDGE",
+    "name": "HEDGE coin",
+    "symbol": "HEDGE",
+    "image": "https://assets.dedust.io/images/hedge.webp",
+    "decimals": 9,
+    "rawAddress": "0:6227c7526e9dff6006ff2ae0bae330ab16a413b056d479ee6d6f3af97a5fc710"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAvvEdq4x5K6owjsMI4X6AxKkTBXVKIVkiSHDLt6i2LFnnQ",
+    "name": "Bear Country Token",
+    "symbol": "JBCT",
+    "image": "https://assets.dedust.io/images/jbct.webp",
+    "decimals": 9,
+    "rawAddress": "0:2fbc476ae31e4aea8c23b0c2385fa0312a44c15d52885648921c32edea2d8b16"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBtFN8h8dStTvI58tESc_S70ehkBLSuzQqCg5BLIQyKMBC1",
+    "name": "VOMER",
+    "symbol": "VMR",
+    "image": "https://assets.dedust.io/images/vmr.webp",
+    "decimals": 9,
+    "rawAddress": "0:6d14df21f1d4ad4ef239f2d11273f4bbd1e86404b4aecd0a8283904b210c8a30"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBl3gg6AAdjgjO2ZoNU5Q5EzUIl8XMNZrix8Z5dJmkHUfxI",
+    "name": "Lavandos",
+    "symbol": "LAVE",
+    "image": "https://assets.dedust.io/images/lave.webp",
+    "decimals": 9,
+    "rawAddress": "0:65de083a0007638233b6668354e50e44cd4225f1730d66b8b1f19e5d26690751"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCPmOnkTe8qP_ZtCf3Rys04ukRTiQc_xVS-lGQ6BH3JZWmC",
+    "name": "Tenere",
+    "symbol": "TNR",
+    "image": "https://assets.dedust.io/images/tnr.webp",
+    "decimals": 9,
+    "rawAddress": "0:8f98e9e44def2a3ff66d09fdd1cacd38ba445389073fc554be94643a047dc965"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAj18Ki4sG47AXb14No35FnrMNBxC2uHcuIejJDyrd6VXpQ",
+    "name": "PAPA CARLO",
+    "symbol": "PC",
+    "image": "https://assets.dedust.io/images/pc.webp",
+    "decimals": 9,
+    "rawAddress": "0:23d7c2a2e2c1b8ec05dbd78368df9167acc341c42dae1dcb887a3243cab77a55"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBtUKPbhABPYtltiKWA547s4ZhJ5wZHvVV1eyfV7sEyGs2J",
+    "name": "Wallet Exchanger",
+    "symbol": "WEX",
+    "image": "https://assets.dedust.io/images/wex.webp",
+    "decimals": 9,
+    "rawAddress": "0:6d50a3db84004f62d96d88a580e78eece19849e70647bd55757b27d5eec1321a"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBzyesZ3p1WGNrggNSJi6JFK3vr0GhqJp4gxker9oujjcuv",
+    "name": "TonTake",
+    "symbol": "TAKE",
+    "image": "https://assets.dedust.io/images/take.webp",
+    "decimals": 9,
+    "rawAddress": "0:73c9eb19de9d5618dae080d4898ba2452b7bebd0686a269e20c647abf68ba38d"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCfJ4Su11h0_MB2XRvIjm8gw0y2AB4RZEfOoPOweyVIzvda",
+    "name": "Milyman",
+    "symbol": "MILY",
+    "image": "https://assets.dedust.io/images/mily.webp",
+    "decimals": 9,
+    "rawAddress": "0:9f2784aed75874fcc0765d1bc88e6f20c34cb6001e116447cea0f3b07b2548ce"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDqQscohYilSqWEyeLyCReOQKOh7KhRX_CPlD-Qdx02tUbG",
+    "name": "Vincere",
+    "symbol": "VC",
+    "image": "https://assets.dedust.io/images/vincere.webp",
+    "decimals": 9,
+    "rawAddress": "0:ea42c7288588a54aa584c9e2f209178e40a3a1eca8515ff08f943f90771d36b5"
+  },
+  {
+    "type": "jetton",
+    "address": "EQACGPrFHWCy9QmeFXPqvZflyoeBb5grVQxAaucF0hNd1sEs",
+    "name": "Stalin",
+    "symbol": "IVS",
+    "image": "https://assets.dedust.io/images/ivs.webp",
+    "decimals": 9,
+    "rawAddress": "0:0218fac51d60b2f5099e1573eabd97e5ca87816f982b550c406ae705d2135dd6"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAYBDuLdLrjDKR1SUZ60ZuLuSzHDIoE26zZExuB_bjiG0Zr",
+    "name": "TON Click",
+    "symbol": "CLICK",
+    "image": "https://assets.dedust.io/images/click.webp",
+    "decimals": 9,
+    "rawAddress": "0:18043b8b74bae30ca47549467ad19b8bb92cc70c8a04dbacd9131b81fdb8e21b"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDCAjHxgyScUPS-Am_2nAH7C5XWM4fc2X9dVyWpFgHXG2rT",
+    "name": "EggsWisdom",
+    "symbol": "EGG",
+    "image": "https://assets.dedust.io/images/egg.webp",
+    "decimals": 9,
+    "rawAddress": "0:c20231f183249c50f4be026ff69c01fb0b95d63387dcd97f5d5725a91601d71b"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAS2elYb6_hqWyOl7gpuYTzf1sqmjLJQ0lQ4X_4d_MvtMWR",
+    "name": "Love You",
+    "symbol": "LOVE",
+    "image": "https://assets.dedust.io/images/love.webp",
+    "decimals": 9,
+    "rawAddress": "0:12d9e9586fafe1a96c8e97b829b984f37f5b2a9a32c9434950e17ff877f32fb4"
+  },
+  {
+    "type": "jetton",
+    "address": "EQD26zcd6Cqpz7WyLKVH8x_cD6D7tBrom6hKcycv8L8hV0GP",
+    "name": "DeFinder Capital",
+    "symbol": "DFC",
+    "image": "https://assets.dedust.io/images/dfc.webp",
+    "decimals": 9,
+    "rawAddress": "0:f6eb371de82aa9cfb5b22ca547f31fdc0fa0fbb41ae89ba84a73272ff0bf2157"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAhRC_oZ4B9VgMltfNkENSdLktlMADPE73zIiIcL6es2o7-",
+    "name": "TON Drift",
+    "symbol": "DRIFT",
+    "image": "https://assets.dedust.io/images/drift.webp",
+    "decimals": 10,
+    "rawAddress": "0:21442fe867807d560325b5f36410d49d2e4b653000cf13bdf322221c2fa7acda"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCyDhcASwIm8-eVVTzMEESYAeQ7ettasfuGXUG1tkDwVJbc",
+    "name": "Lucky TON",
+    "symbol": "LKY",
+    "image": "https://assets.dedust.io/images/lucky.webp",
+    "decimals": 8,
+    "rawAddress": "0:b20e17004b0226f3e795553ccc10449801e43b7adb5ab1fb865d41b5b640f054"
+  },
+  {
+    "type": "jetton",
+    "address": "EQA2IyKaO7fKV37GxQGbRY_yZdE47ZdQXbOnX55OWhCwbL6H",
+    "name": "GROK",
+    "symbol": "GROK",
+    "image": "https://assets.dedust.io/images/grok.webp",
+    "decimals": 9,
+    "rawAddress": "0:3623229a3bb7ca577ec6c5019b458ff265d138ed97505db3a75f9e4e5a10b06c"
+  },
+  {
+    "type": "jetton",
+    "address": "EQATcUc69sGSCCMSadsVUKdGwM1BMKS-HKCWGPk60xZGgwsK",
+    "name": "TON FISH MEMECOIN",
+    "symbol": "FISH",
+    "image": "https://assets.dedust.io/images/fish.webp",
+    "decimals": 9,
+    "rawAddress": "0:1371473af6c19208231269db1550a746c0cd4130a4be1ca09618f93ad3164683"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDODkpfxZ4joe3RxBckjgvCCQH-TXxozbNwTOoCUoOMCfX8",
+    "name": "GRIMACE COIN",
+    "symbol": "GRIMACE",
+    "image": "https://assets.dedust.io/images/grimace.webp",
+    "decimals": 9,
+    "rawAddress": "0:ce0e4a5fc59e23a1edd1c417248e0bc20901fe4d7c68cdb3704cea0252838c09"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCYlvFpi04AFebeF0x4KayKioExdvP23iwtTJ45GaaTTEbP",
+    "name": "PAPA",
+    "symbol": "PAPA",
+    "image": "https://assets.dedust.io/images/papa.webp",
+    "decimals": 9,
+    "rawAddress": "0:9896f1698b4e0015e6de174c7829ac8a8a813176f3f6de2c2d4c9e3919a6934c"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDgHOW0gbfEodDilc8Vkms_FzahCxhXos7GwJXXhz8uwPET",
+    "name": "Wrapped Ymakanic Coin",
+    "symbol": "wYKC",
+    "image": "https://assets.dedust.io/images/wykc.webp",
+    "decimals": 9,
+    "rawAddress": "0:e01ce5b481b7c4a1d0e295cf15926b3f1736a10b1857a2cec6c095d7873f2ec0"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAtwmCISetV3ncZRb1QDiHcbSgfo-Y37-zPL6NhedGHGaTf",
+    "name": "SEED",
+    "symbol": "SEED",
+    "image": "https://assets.dedust.io/images/seed.webp",
+    "decimals": 9,
+    "rawAddress": "0:2dc2608849eb55de771945bd500e21dc6d281fa3e637efeccf2fa36179d18719"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBiHSLVzoicc-LQPDXJc_rF-WRft0aFihccFduA6fQ1ynYM",
+    "name": "Baron",
+    "symbol": "BARO",
+    "image": "https://assets.dedust.io/images/baro.webp",
+    "decimals": 9,
+    "rawAddress": "0:621d22d5ce889c73e2d03c35c973fac5f9645fb746858a171c15db80e9f435ca"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCyfdVbfwkcBfBSn57GRnMY_BRO4vYG7HnkWngH41FLM-5Y",
+    "name": "Making Money TON",
+    "symbol": "MMT",
+    "image": "https://assets.dedust.io/images/mmt.webp",
+    "decimals": 9,
+    "rawAddress": "0:b27dd55b7f091c05f0529f9ec6467318fc144ee2f606ec79e45a7807e3514b33"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCMDE8Ffe-40QGryoSyazN_YlCHr-Hp_oc3-duz2GsaW-_w",
+    "name": "TON GAIKA",
+    "symbol": "GAIKA",
+    "image": "https://assets.dedust.io/images/gaika.webp",
+    "decimals": 9,
+    "rawAddress": "0:8c0c4f057defb8d101abca84b26b337f625087afe1e9fe8737f9dbb3d86b1a5b"
+  },
+  {
+    "type": "jetton",
+    "address": "EQC4D-qkAaqYXWOnWRJx6xtOhd7Fa9zZQdob8iWD6mS_kPqU",
+    "name": "TONic",
+    "symbol": "TONIC",
+    "image": "https://assets.dedust.io/images/tonic.webp",
+    "decimals": 18,
+    "rawAddress": "0:b80feaa401aa985d63a7591271eb1b4e85dec56bdcd941da1bf22583ea64bf90"
+  },
+  {
+    "type": "jetton",
+    "address": "EQC_kG29HfgpJRW2RYIApeQI9PPYdzdsleqiarfo00MvSTSs",
+    "name": "Meow",
+    "symbol": "MEOW",
+    "image": "https://assets.dedust.io/images/meow.webp",
+    "decimals": 9,
+    "rawAddress": "0:bf906dbd1df8292515b6458200a5e408f4f3d877376c95eaa26ab7e8d3432f49"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAcjv-v76upZgRoRNUM6tCmd6d9Q09sWVTFqCdfLeuP4P3b",
+    "name": "TonTogether",
+    "symbol": "TOT",
+    "image": "https://assets.dedust.io/images/tot.webp",
+    "decimals": 9,
+    "rawAddress": "0:1c8effafefaba966046844d50cead0a677a77d434f6c5954c5a8275f2deb8fe0"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAjjnIVdwE6J0zgDXiXgOU5odFAvDE4iKvYDZx95wK17a8F",
+    "name": "butTON",
+    "symbol": "BTON",
+    "image": "https://assets.dedust.io/images/bton.webp",
+    "decimals": 9,
+    "rawAddress": "0:238e721577013a274ce00d789780e539a1d140bc313888abd80d9c7de702b5ed"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAJ29WkjjLqu-ucmAj9A0rRm86U6OvNRz46iqd1XVy8Pryq",
+    "name": "Lombard Revival Token",
+    "symbol": "LRT",
+    "image": "https://assets.dedust.io/images/lrt.webp",
+    "decimals": 9,
+    "rawAddress": "0:09dbd5a48e32eabbeb9c9808fd034ad19bce94e8ebcd473e3a8aa7755d5cbc3e"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBBjMB-epcdooV0LKSAOl12see94OnllUWFXi0mqYZGsXr2",
+    "name": "SIMBA",
+    "symbol": "SIM",
+    "image": "https://assets.dedust.io/images/sim.webp",
+    "decimals": 9,
+    "rawAddress": "0:418cc07e7a971da285742ca4803a5d76b1e7bde0e9e59545855e2d26a98646b1"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDgyXtVBaUTYrNIYEyVTOIUCWItOPlj5eViJH7URrFI8DDR",
+    "name": "BANANA",
+    "symbol": "BANANA",
+    "image": "https://assets.dedust.io/images/banana.webp",
+    "decimals": 9,
+    "rawAddress": "0:e0c97b5505a51362b348604c954ce21409622d38f963e5e562247ed446b148f0"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBE_P2bKO9dHGSwUhZbQv6va-YRuEWUEZuCv_iEXgO-psTz",
+    "name": "Dracoin",
+    "symbol": "DRA",
+    "image": "https://assets.dedust.io/images/dra.webp",
+    "decimals": 9,
+    "rawAddress": "0:44fcfd9b28ef5d1c64b052165b42feaf6be611b84594119b82bff8845e03bea6"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDf84FT8tdHZeI2-LXdb8gPMRqHRSABrmi8jI7MzvVpGJKZ",
+    "name": "OpenCoin",
+    "symbol": "OPEN",
+    "image": "https://assets.dedust.io/images/open.webp",
+    "decimals": 5,
+    "rawAddress": "0:dff38153f2d74765e236f8b5dd6fc80f311a87452001ae68bc8c8ecccef56918"
+  },
+  {
+    "type": "jetton",
+    "address": "EQADvGUQtbwXCgYU-0Ug4rGkwTpZr6Iyzikp6qMBpYE2HXFq",
+    "name": "Mercury coin",
+    "symbol": "MERC",
+    "image": "https://assets.dedust.io/images/merc.webp",
+    "decimals": 7,
+    "rawAddress": "0:03bc6510b5bc170a0614fb4520e2b1a4c13a59afa232ce2929eaa301a581361d"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDpnjfEwSJjdUufatHdopE9sZLKmD7ngXJvbixkel6zta5B",
+    "name": "Chad on TON",
+    "symbol": "CHAD",
+    "image": "https://assets.dedust.io/images/chad.webp",
+    "decimals": 9,
+    "rawAddress": "0:e99e37c4c12263754b9f6ad1dda2913db192ca983ee781726f6e2c647a5eb3b5"
+  },
+  {
+    "type": "jetton",
+    "address": "EQD5ty5IxV3HECEY1bbbdd7rNNY-ZcA-pAIGQXyyRZRED9v3",
+    "name": "Stable Metal",
+    "symbol": "STBL",
+    "image": "https://assets.dedust.io/images/stbl.webp",
+    "decimals": 9,
+    "rawAddress": "0:f9b72e48c55dc7102118d5b6db75deeb34d63e65c03ea40206417cb24594440f"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAO3n9xmdXwXHUhtZ3zKexpeUEKejYVKCeEupdsg2kvgcof",
+    "name": "ToonTools",
+    "symbol": "TOON",
+    "image": "https://assets.dedust.io/images/toon.webp",
+    "decimals": 9,
+    "rawAddress": "0:0ede7f7199d5f05c7521b59df329ec6979410a7a3615282784ba976c83692f81"
+  },
+  {
+    "type": "jetton",
+    "address": "EQB9D1_Rog6itYuNoLkIUmsjmkF7hU_UUSzFkEwiv6ZseCac",
+    "name": "MAMA",
+    "symbol": "MAMA",
+    "image": "https://assets.dedust.io/images/mama.webp",
+    "decimals": 9,
+    "rawAddress": "0:7d0f5fd1a20ea2b58b8da0b908526b239a417b854fd4512cc5904c22bfa66c78"
+  },
+  {
+    "type": "jetton",
+    "address": "EQD39LNnyg6uEQv5jqkF76F45VY4sszDqqz2N8KbL1QQ3XPr",
+    "name": "BARASH",
+    "symbol": "SHEEP",
+    "image": "https://assets.dedust.io/images/sheep.webp",
+    "decimals": 9,
+    "rawAddress": "0:f7f4b367ca0eae110bf98ea905efa178e55638b2ccc3aaacf637c29b2f5410dd"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBlHnYC0Uk13_WBK4PN-qjB2TiiXixYDTe7EjX17-IV-0eF",
+    "name": "Ton Invaders Coin",
+    "symbol": "INC",
+    "image": "https://assets.dedust.io/images/inc.webp",
+    "decimals": 9,
+    "rawAddress": "0:651e7602d14935dff5812b83cdfaa8c1d938a25e2c580d37bb1235f5efe215fb"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAVluGRC4wEV2aDpiIgqiEvhnH--lmq5EFaL6C9Vfv0VRMZ",
+    "name": "Fake Notcoin",
+    "symbol": "FNOT",
+    "image": "https://assets.dedust.io/images/fnot.webp",
+    "decimals": 9,
+    "rawAddress": "0:1596e1910b8c04576683a62220aa212f8671fefa59aae4415a2fa0bd55fbf455"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBmcXCytc9ZDcyfoh9FXNNvSkpsl_VD7GwjkhBU1hF1S_dw",
+    "name": "DOBERCOIN",
+    "symbol": "DOBER",
+    "image": "https://assets.dedust.io/images/dober.webp",
+    "decimals": 9,
+    "rawAddress": "0:667170b2b5cf590dcc9fa21f455cd36f4a4a6c97f543ec6c23921054d611754b"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCDIJKFTf5QoWii6-_KTk8bo6eKiR-6hk5HUQwixCe8SW-I",
+    "name": "VISHNYA",
+    "symbol": "VISHNYA",
+    "image": "https://assets.dedust.io/images/vishnya.webp",
+    "decimals": 9,
+    "rawAddress": "0:832092854dfe50a168a2ebefca4e4f1ba3a78a891fba864e47510c22c427bc49"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCA4a0fi5CCkKowfZVASYOcaz9nJhhWI7DijU2vsohyMGNn",
+    "name": "JogjaTON",
+    "symbol": "JOG",
+    "image": "https://assets.dedust.io/images/jog.webp",
+    "decimals": 9,
+    "rawAddress": "0:80e1ad1f8b908290aa307d954049839c6b3f6726185623b0e28d4dafb2887230"
+  },
+  {
+    "type": "jetton",
+    "address": "EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O",
+    "name": "Gram",
+    "symbol": "GRAM",
+    "image": "https://assets.dedust.io/images/gram.webp",
+    "decimals": 9,
+    "rawAddress": "0:b8ef4f77a17e5785bd31ba4da50abd91852f2b8febee97ad6ee16d941f939198"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCsN1IslttnFpGjUabpt3RCnVYca74ZB9yD0L2ZK9CvJ53D",
+    "name": "Ferma Invest Dom",
+    "symbol": "FID",
+    "image": "https://assets.dedust.io/images/fid.webp",
+    "decimals": 3,
+    "rawAddress": "0:ac37522c96db671691a351a6e9b774429d561c6bbe1907dc83d0bd992bd0af27"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBfX9KO5yIFprHWPpJp3OsX-6cjLjEJF-h5uIQE3eLJY8_h",
+    "name": "Virtuals Worlds",
+    "symbol": "VWS",
+    "image": "https://assets.dedust.io/images/vws.webp",
+    "decimals": 18,
+    "rawAddress": "0:5f5fd28ee72205a6b1d63e9269dceb17fba7232e310917e879b88404dde2c963"
+  },
+  {
+    "type": "jetton",
+    "address": "EQA1jvPqRx6bujYohDny43hwX8FZr3b6OYnI3t2jHd4TXSJs",
+    "name": "TON SHIP",
+    "symbol": "SHIP",
+    "image": "https://assets.dedust.io/images/ship.webp",
+    "decimals": 9,
+    "rawAddress": "0:358ef3ea471e9bba36288439f2e378705fc159af76fa3989c8dedda31dde135d"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCweXSZaX5k5xOtXLbGgfF8FY6Dbg6rNiPrd9d0f_-kDSHZ",
+    "name": "RubeTON",
+    "symbol": "RUBETON",
+    "image": "https://assets.dedust.io/images/rubeton.webp",
+    "decimals": 9,
+    "rawAddress": "0:b0797499697e64e713ad5cb6c681f17c158e836e0eab3623eb77d7747fffa40d"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBtcL4JA-PdPiUkB8utHcqdaftmUSTqdL8Z1EeXePLti_nK",
+    "name": "Web3 TON Token",
+    "symbol": "WEB3",
+    "image": "https://assets.dedust.io/images/web3.webp",
+    "decimals": 3,
+    "rawAddress": "0:6d70be0903e3dd3e252407cbad1dca9d69fb665124ea74bf19d4479778f2ed8b"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCymLRXp1QYxZKek4CTInckB1ey5TkyAJQpPAlNetiO54Vt",
+    "name": "Meridian",
+    "symbol": "MRDN",
+    "image": "https://assets.dedust.io/images/mrdn.webp",
+    "decimals": 9,
+    "rawAddress": "0:b298b457a75418c5929e9380932277240757b2e539320094293c094d7ad88ee7"
+  },
+  {
+    "type": "jetton",
+    "address": "EQD3U8yc2moTe8yCbUlYxkMh_SCCWLkuxQam2lab4iDfpXYU",
+    "name": "Secure Sockets Layer",
+    "symbol": "SSL",
+    "image": "https://assets.dedust.io/images/ssl.webp",
+    "decimals": 9,
+    "rawAddress": "0:f753cc9cda6a137bcc826d4958c64321fd208258b92ec506a6da569be220dfa5"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBHcVEoIwZ22GifL7BtVTGkzJKLQoC-rmqV6_nj7SR-hL2P",
+    "name": "Jason Statham",
+    "symbol": "STATHAM",
+    "image": "https://assets.dedust.io/images/statham.webp",
+    "decimals": 9,
+    "rawAddress": "0:47715128230676d8689f2fb06d5531a4cc928b4280beae6a95ebf9e3ed247e84"
+  },
+  {
+    "type": "jetton",
+    "address": "EQC8FoZMlBcZhZ6Pr9sHGyHzkFv9y2B5X9tN61RvucLRzFZz",
+    "name": "JVault Token",
+    "symbol": "JVT",
+    "image": "https://assets.dedust.io/images/jvt.webp",
+    "decimals": 9,
+    "rawAddress": "0:bc16864c941719859e8fafdb071b21f3905bfdcb60795fdb4deb546fb9c2d1cc"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDmgVHxf-avCIDyU3POfqzXsyU9FzAOdJGVAY-arolFtb7B",
+    "name": "TonEnd",
+    "symbol": "END",
+    "image": "https://assets.dedust.io/images/end.webp",
+    "decimals": 9,
+    "rawAddress": "0:e68151f17fe6af0880f25373ce7eacd7b3253d17300e749195018f9aae8945b5"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDNlNA2NSbWtigW37WX__FIu4Y2NNPwijJd3Ktmhi7gdCyv",
+    "name": "E4",
+    "symbol": "E4",
+    "image": "https://assets.dedust.io/images/e4.webp",
+    "decimals": 9,
+    "rawAddress": "0:cd94d0363526d6b62816dfb597fff148bb863634d3f08a325ddcab66862ee074"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDnNof1yihA_JtXc70AZJCgw5_b1hIKkJGcdBXS5K-p3S-_",
+    "name": "Tonbet Token",
+    "symbol": "TBT",
+    "image": "https://assets.dedust.io/images/tonbet.webp",
+    "decimals": 9,
+    "rawAddress": "0:e73687f5ca2840fc9b5773bd006490a0c39fdbd6120a90919c7415d2e4afa9dd"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBT2Ee4Lx5w9uI7oMly5upXNs3ABWL_Fwk1uiM74gZCGaYt",
+    "name": "1RUS DAO",
+    "symbol": "1RUSD",
+    "image": "https://assets.dedust.io/images/1rus.webp",
+    "decimals": 9,
+    "rawAddress": "0:53d847b82f1e70f6e23ba0c972e6ea5736cdc00562ff170935ba233be2064219"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDgSR_-4FDlXPfMVefXX1IIXMWBH4YfYV1a_8cJ0XsGVdsf",
+    "name": "PROTON JETTON",
+    "symbol": "PROTON",
+    "image": "https://assets.dedust.io/images/proton.webp",
+    "decimals": 9,
+    "rawAddress": "0:e0491ffee050e55cf7cc55e7d75f52085cc5811f861f615d5affc709d17b0655"
+  },
+  {
+    "type": "jetton",
+    "address": "EQC52I3c2rmZpUav0LrU6q7wuXoTmhOInvaFhKjZ6QuC5tV5",
+    "name": "SCAM",
+    "symbol": "SCAM",
+    "image": "https://assets.dedust.io/images/scam.webp",
+    "decimals": 9,
+    "rawAddress": "0:b9d88ddcdab999a546afd0bad4eaaef0b97a139a13889ef68584a8d9e90b82e6"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAu8oDM_dXMgQd1COjRnU6sYhmvm5RP32gyyL9R2Rv-8s70",
+    "name": "SquirellCoin",
+    "symbol": "SQRL",
+    "image": "https://assets.dedust.io/images/sqrl.webp",
+    "decimals": 9,
+    "rawAddress": "0:2ef280ccfdd5cc81077508e8d19d4eac6219af9b944fdf6832c8bf51d91bfef2"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBLhoan0aTiLK6JTys13c8ZM1qjqpDFOs3UpYQ0B-Kdt3J6",
+    "name": "BRAD",
+    "symbol": "BRAD",
+    "image": "https://assets.dedust.io/images/brad.webp",
+    "decimals": 9,
+    "rawAddress": "0:4b8686a7d1a4e22cae894f2b35ddcf19335aa3aa90c53acdd4a5843407e29db7"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCXIHAWDAJEJhMiNVqeUvp3I6O7y_P2sD80zEsJXeUi56mb",
+    "name": "Mumba",
+    "symbol": "MUMBA",
+    "image": "https://assets.dedust.io/images/mumba.webp",
+    "decimals": 9,
+    "rawAddress": "0:972070160c0244261322355a9e52fa7723a3bbcbf3f6b03f34cc4b095de522e7"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBfMGkJtSWA4VZspN0zC9iedpK60HwPAIEWaPJaIWgf_pnV",
+    "name": "TON Goblins Token",
+    "symbol": "GOBLIN",
+    "image": "https://assets.dedust.io/images/goblin.webp",
+    "decimals": 9,
+    "rawAddress": "0:5f306909b52580e1566ca4dd330bd89e7692bad07c0f00811668f25a21681ffe"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCRU1SC3xNf_r33q8NZzLughmvdE21JRYIZj4oRKUdRKRDb",
+    "name": "BEETON",
+    "symbol": "BEE",
+    "image": "https://assets.dedust.io/images/bee.webp",
+    "decimals": 9,
+    "rawAddress": "0:91535482df135ffebdf7abc359ccbba0866bdd136d494582198f8a1129475129"
+  },
+  {
+    "type": "jetton",
+    "address": "EQD4P32U10snNoIavoq6cYPTQR82ewAjO20epigrWRAup54_",
+    "name": "Hydra",
+    "symbol": "HYDRA",
+    "image": "https://assets.dedust.io/images/hydra.webp",
+    "decimals": 6,
+    "rawAddress": "0:f83f7d94d74b2736821abe8aba7183d3411f367b00233b6d1ea6282b59102ea7"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDzvs6ZhNDZMQMeKK2Inc8ymDpORl0H5hAfgtf3dXRbt7I7",
+    "name": "Rug Pull",
+    "symbol": "RUGPULL",
+    "image": "https://assets.dedust.io/images/rugpull.webp",
+    "decimals": 9,
+    "rawAddress": "0:f3bece9984d0d931031e28ad889dcf32983a4e465d07e6101f82d7f775745bb7"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDAiXxX8J2CHo4un2mAYFuexI620Y33CWfLFZK-7LcR9Pps",
+    "name": "Magic Vip People",
+    "symbol": "MVP",
+    "image": "https://assets.dedust.io/images/mvp.webp",
+    "decimals": 18,
+    "rawAddress": "0:c0897c57f09d821e8e2e9f6980605b9ec48eb6d18df70967cb1592beecb711f4"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDA6v7olSvZCEr2yNhUlM4eBnRF11lsHLrtkkh7MSMICt4r",
+    "name": "SAFT ENRG",
+    "symbol": "SENRG",
+    "image": "https://assets.dedust.io/images/senrg.webp",
+    "decimals": 0,
+    "rawAddress": "0:c0eafee8952bd9084af6c8d85494ce1e067445d7596c1cbaed92487b3123080a"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCY8WgTgujVGm83VZyFUuFIXuD9_SAKwGyiJiBuxGq55DGd",
+    "name": "Tilt",
+    "symbol": "TILT",
+    "image": "https://assets.dedust.io/images/tilt.webp",
+    "decimals": 9,
+    "rawAddress": "0:98f1681382e8d51a6f37559c8552e1485ee0fdfd200ac06ca226206ec46ab9e4"
+  },
+  {
+    "type": "jetton",
+    "address": "EQD3zalQrwnhAA5puG-J_tQv3W5n5c6v449jk084Bq4lWuSQ",
+    "name": "Ton Ai",
+    "symbol": "TAI",
+    "image": "https://assets.dedust.io/images/tai.webp",
+    "decimals": 9,
+    "rawAddress": "0:f7cda950af09e1000e69b86f89fed42fdd6e67e5ceafe38f63934f3806ae255a"
+  },
+  {
+    "type": "jetton",
+    "address": "EQByLZOaBbpr9EwNonXKEfkkZL1viNsYHezxw5CVK4Bh0zEb",
+    "name": "DINJA",
+    "symbol": "DINJA",
+    "image": "https://assets.dedust.io/images/dinja.webp",
+    "decimals": 9,
+    "rawAddress": "0:722d939a05ba6bf44c0da275ca11f92464bd6f88db181decf1c390952b8061d3"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDsvbmh_rHjpO-FX3pmtPutllynl0OKuqqR9c1RICibsN6l",
+    "name": "Round Chicken Token",
+    "symbol": "RCT",
+    "image": "https://assets.dedust.io/images/rct.webp",
+    "decimals": 9,
+    "rawAddress": "0:ecbdb9a1feb1e3a4ef855f7a66b4fbad965ca797438abaaa91f5cd5120289bb0"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDlnVo-6abJzyHlU8uB7pRjE7OIKt4HTTDPG4hfwOf5jTPg",
+    "name": "ALL",
+    "symbol": "ALL",
+    "image": "https://assets.dedust.io/images/all.webp",
+    "decimals": 9,
+    "rawAddress": "0:e59d5a3ee9a6c9cf21e553cb81ee946313b3882ade074d30cf1b885fc0e7f98d"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAMSx9XLYJ6lYB9LL0kAPjZPhGYdlV7QQsPgRrVGv3qGLNt",
+    "name": "Stec Network",
+    "symbol": "STEC",
+    "image": "https://assets.dedust.io/images/stec.webp",
+    "decimals": 9,
+    "rawAddress": "0:0c4b1f572d827a95807d2cbd2400f8d93e119876557b410b0f811ad51afdea18"
+  },
+  {
+    "type": "jetton",
+    "address": "EQATgD7dao9jWBdz_qKL-UJZCXZGQvV5HJVUC85ssgmHKWll",
+    "name": "Plankton",
+    "symbol": "PLANKTON",
+    "image": "https://assets.dedust.io/images/plankton.webp",
+    "decimals": 9,
+    "rawAddress": "0:13803edd6a8f63581773fea28bf9425909764642f5791c95540bce6cb2098729"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDsrCYtZgbO57PQ47b9oytjQrUjix-gz2wIP088DEUvh2kC",
+    "name": "ARBUZ",
+    "symbol": "jARBUZ",
+    "image": "https://assets.dedust.io/images/arbuz.webp",
+    "decimals": 18,
+    "source": {
+      "chain": "eip155:1",
+      "address": "0x10ba2e5ac2e91d5a89fe0f89bb625ebcefff812d",
+      "bridge": "ton-bridge",
+      "symbol": "ARBUZ",
+      "name": "ARBUZ"
+    },
+    "rawAddress": "0:ecac262d6606cee7b3d0e3b6fda32b6342b5238b1fa0cf6c083f4f3c0c452f87"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBZ_cafPyDr5KUTs0aNxh0ZTDhkpEZONmLJA2SNGlLm4Cko",
+    "name": "Resistance Dog",
+    "symbol": "REDO",
+    "image": "https://assets.dedust.io/images/redo.webp",
+    "decimals": 9,
+    "rawAddress": "0:59fdc69f3f20ebe4a513b3468dc61d194c3864a4464e3662c903648d1a52e6e0"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBhj9Fwtr0ZwftDF13f6d1aqh5Cegdqit8BCTwbjL71KN3Z",
+    "name": "FREEDOM",
+    "symbol": "FREE",
+    "image": "https://assets.dedust.io/images/free.webp",
+    "decimals": 9,
+    "rawAddress": "0:618fd170b6bd19c1fb43175ddfe9dd5aaa1e427a076a8adf01093c1b8cbef528"
+  },
+  {
+    "type": "jetton",
+    "address": "EQB2lbt2s_jdUW3OoUIb7-9RoK2UeGXmgC7BnOwgK6P_JTrm",
+    "name": "UNICORN",
+    "symbol": "UNIC",
+    "image": "https://assets.dedust.io/images/unic.webp",
+    "decimals": 9,
+    "rawAddress": "0:7695bb76b3f8dd516dcea1421befef51a0ad947865e6802ec19cec202ba3ff25"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCgFCvZCV6qqB-2Kel6D_kV4zEW4FFOQfYV4KDDNTEJdItn",
+    "name": "BORIS PIXEL",
+    "symbol": "PIXEL",
+    "image": "https://assets.dedust.io/images/pixel.webp",
+    "decimals": 9,
+    "rawAddress": "0:a0142bd9095eaaa81fb629e97a0ff915e33116e0514e41f615e0a0c335310974"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCSn3u5g0mGg4eBnP36kauDc9Flt4VphS-0TXz0f60wOqsI",
+    "name": "eNOT COIN",
+    "symbol": "eNOT",
+    "image": "https://assets.dedust.io/images/enot.webp",
+    "decimals": 5,
+    "rawAddress": "0:929f7bb98349868387819cfdfa91ab8373d165b78569852fb44d7cf47fad303a"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCIIUm7dnBgmcrubDfFLZV52oe1F_HFdDZiMfer9riphpQo",
+    "name": "SAKE",
+    "symbol": "SAKE",
+    "image": "https://assets.dedust.io/images/sake.webp",
+    "decimals": 9,
+    "rawAddress": "0:882149bb76706099caee6c37c52d9579da87b517f1c574366231f7abf6b8a986"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCcXKwYGCCZnzQj9vwwg8Y-F3d8H7cow-Mwgj8pTFruBfP8",
+    "name": "Tribe",
+    "symbol": "TRIBE",
+    "image": "https://assets.dedust.io/images/tribe.webp",
+    "decimals": 2,
+    "rawAddress": "0:9c5cac181820999f3423f6fc3083c63e17777c1fb728c3e330823f294c5aee05"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBygwrEcGIj5zmEtWeMGsQXbXr1WBgV3coVfqyURQighw2Y",
+    "name": "NUDES Coin",
+    "symbol": "NUDES",
+    "image": "https://assets.dedust.io/images/nudes.webp",
+    "decimals": 9,
+    "rawAddress": "0:72830ac4706223e73984b5678c1ac4176d7af5581815ddca157eac944508a087"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDoziSttQZ96QJRxHRKdatCm5L9DRL9LKycXcjl8RPXZM0N",
+    "name": "POT",
+    "symbol": "POT",
+    "image": "https://assets.dedust.io/images/pot.webp",
+    "decimals": 9,
+    "rawAddress": "0:e8ce24adb5067de90251c4744a75ab429b92fd0d12fd2cac9c5dc8e5f113d764"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCvsARFU_tJCRq7eFTrs2ORasCwDIPLQo7ZlkehsMmgQzd8",
+    "name": "OAAL AI",
+    "symbol": "OAAL",
+    "image": "https://assets.dedust.io/images/oaal.webp",
+    "decimals": 9,
+    "rawAddress": "0:afb0044553fb49091abb7854ebb363916ac0b00c83cb428ed99647a1b0c9a043"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCHrhcBGVVlre8ngBlxLtfte37OGsXeJSmFSmABL8x44QH2",
+    "name": "The Open SOFT",
+    "symbol": "SOFT",
+    "image": "https://assets.dedust.io/images/soft.webp",
+    "decimals": 9,
+    "rawAddress": "0:87ae1701195565adef278019712ed7ed7b7ece1ac5de2529854a60012fcc78e1"
+  },
+  {
+    "type": "jetton",
+    "address": "EQD_ETL-SQRFwuxIIDwvo8CiwuVK9o7lXgfNVUSz9tllGMz9",
+    "name": "DYNYA",
+    "symbol": "DYNYA",
+    "image": "https://assets.dedust.io/images/dynya.webp",
+    "decimals": 9,
+    "rawAddress": "0:ff1132fe490445c2ec48203c2fa3c0a2c2e54af68ee55e07cd5544b3f6d96518"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBTcytZjdZwFLj6TO7CeGvn4aMmqXvbX-nODiApbd011gT3",
+    "name": "Duck Coin",
+    "symbol": "DUCK",
+    "image": "https://assets.dedust.io/images/duck.webp",
+    "decimals": 9,
+    "rawAddress": "0:53732b598dd67014b8fa4ceec2786be7e1a326a97bdb5fe9ce0e20296ddd35d6"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCOGp1GAVk51prVBw5DO8QN3lKIlUJKjXbZcl5aXgL5hkwy",
+    "name": "Wrapped NANO",
+    "symbol": "jNANO",
+    "image": "https://assets.dedust.io/images/jnano.webp",
+    "decimals": 9,
+    "rawAddress": "0:8e1a9d46015939d69ad5070e433bc40dde528895424a8d76d9725e5a5e02f986"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCL6jaTluAI7ET_JgZ3hPV9Ul8MXP2mZWhMQtGMzd-cNt-X",
+    "name": "Ptah",
+    "symbol": "Y",
+    "image": "https://assets.dedust.io/images/y.webp",
+    "decimals": 9,
+    "rawAddress": "0:8bea369396e008ec44ff26067784f57d525f0c5cfda665684c42d18ccddf9c36"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAHBPL5Q51kQWMtItT3buuaDz0s_Bq4kN174-RKtlqOu07o",
+    "name": "Rocket Cats",
+    "symbol": "RCAT",
+    "image": "https://assets.dedust.io/images/rcat.webp",
+    "decimals": 9,
+    "rawAddress": "0:0704f2f9439d6441632d22d4f76eeb9a0f3d2cfc1ab890dd7be3e44ab65a8ebb"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCy_Zo_ahdCCcDyGQazuAVKWa8KSW930j1VI8k9ZQJYB4_V",
+    "name": "SybilZero",
+    "symbol": "jSYBZERO",
+    "image": "https://assets.dedust.io/images/jsybzero.webp",
+    "decimals": 18,
+    "rawAddress": "0:b2fd9a3f6a174209c0f21906b3b8054a59af0a496f77d23d5523c93d65025807"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAORkhhrXis_XxLAAfyxTyNceNXLtaHcJ5FhXxpNJ8xsDGc",
+    "name": "bemo Staking Experience Point",
+    "symbol": "stXP",
+    "image": "https://assets.dedust.io/images/stxp.webp",
+    "decimals": 9,
+    "rawAddress": "0:0e464861ad78acfd7c4b0007f2c53c8d71e3572ed687709e45857c69349f31b0"
+  },
+  {
+    "type": "jetton",
+    "address": "EQB3421IebxFlcxNYWzRkY9UK7wRaOsWEoO8u2hppdc1AHg9",
+    "name": "NOTSHIBA INU",
+    "symbol": "NOTSHIB",
+    "image": "https://assets.dedust.io/images/notshib.webp",
+    "decimals": 9,
+    "rawAddress": "0:77e36d4879bc4595cc4d616cd1918f542bbc1168eb161283bcbb6869a5d73500"
+  },
+  {
+    "type": "jetton",
+    "address": "EQChXgdfER2nuLvZP5EiSlCf95oXZ5KDiCEmGBBv_WcNdxz3",
+    "name": "Pavul Durkev",
+    "symbol": "PAVUL",
+    "image": "https://assets.dedust.io/images/pavul.webp",
+    "decimals": 9,
+    "rawAddress": "0:a15e075f111da7b8bbd93f91224a509ff79a1767928388212618106ffd670d77"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAEBhAUSSJ_NqYJO3WRNkBUMpfAf7hnd9X7WBhZSqLaxYko",
+    "name": "TPLANT",
+    "symbol": "TPLANT",
+    "image": "https://assets.dedust.io/images/tplant.webp",
+    "decimals": 9,
+    "rawAddress": "0:0406101449227f36a6093b75913640543297c07fb86777d5fb5818594aa2dac5"
+  },
+  {
+    "type": "jetton",
+    "address": "EQD8_ro5tJDyWm0avPITefZ-9ZkzQ9GRvAaKWLX1SkDKTGUt",
+    "name": "BEGEMOTIK",
+    "symbol": "HIPPO",
+    "image": "https://assets.dedust.io/images/hippo.webp",
+    "decimals": 9,
+    "rawAddress": "0:fcfeba39b490f25a6d1abcf21379f67ef5993343d191bc068a58b5f54a40ca4c"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBfl_pzi8t_fYXJEygZoz8cId1sdjnPTsBpvqiHjggXS3Ep",
+    "name": "Kartoshka",
+    "symbol": "POTATO",
+    "image": "https://assets.dedust.io/images/potato.webp",
+    "decimals": 9,
+    "rawAddress": "0:5f97fa738bcb7f7d85c9132819a33f1c21dd6c7639cf4ec069bea8878e08174b"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCZaonjafRJMGz98bItlACMBLh17Y3bMftkppmebJm2O92Z",
+    "name": "OTTON",
+    "symbol": "OTN",
+    "image": "https://assets.dedust.io/images/otton.webp",
+    "decimals": 9,
+    "rawAddress": "0:996a89e369f449306cfdf1b22d94008c04b875ed8ddb31fb64a6999e6c99b63b"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBaOSt5XIqPJjJuHfiK1ZZ7VMpE6VZhwJodY_qnK9qIRAUh",
+    "name": "Not Floki Ton",
+    "symbol": "NFTON",
+    "image": "https://assets.dedust.io/images/nfton.webp",
+    "decimals": 9,
+    "rawAddress": "0:5a392b795c8a8f26326e1df88ad5967b54ca44e95661c09a1d63faa72bda8844"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAJZElrDTgkt0exICrVUQPjN19knWOniGsJC_AunyqfPA0w",
+    "name": "SafeMars",
+    "symbol": "SFMT",
+    "image": "https://assets.dedust.io/images/safemars.webp",
+    "decimals": 9,
+    "rawAddress": "0:0964496b0d3824b747b1202ad55103e3375f649d63a7886b090bf02e9f2a9f3c"
+  },
+  {
+    "type": "jetton",
+    "address": "EQA7nLJI-Eoc5oBzEBnlLzezTEwGNRvyR5tX7iWHT8KPwVy1",
+    "name": "TON7DAO",
+    "symbol": "TON7DAO",
+    "image": "https://assets.dedust.io/images/ton7dao.webp",
+    "decimals": 9,
+    "rawAddress": "0:3b9cb248f84a1ce680731019e52f37b34c4c06351bf2479b57ee25874fc28fc1"
+  },
+  {
+    "type": "jetton",
+    "address": "EQB8RNC7E-0uWcfSP68rk_RReN2JYKQ4nBLq1RsKpaVme0xx",
+    "name": "Rotgar",
+    "symbol": "ROTGAR",
+    "image": "https://assets.dedust.io/images/rotgar.webp",
+    "decimals": 9,
+    "rawAddress": "0:7c44d0bb13ed2e59c7d23faf2b93f45178dd8960a4389c12ead51b0aa5a5667b"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAty7cyLIjF7U-K0VgG_gcksTAKtILkbJCNjPYlZ85cCZAA",
+    "name": "SAUD",
+    "symbol": "SAU",
+    "image": "https://assets.dedust.io/images/saud.webp",
+    "decimals": 9,
+    "rawAddress": "0:2dcbb7322c88c5ed4f8ad15806fe0724b1300ab482e46c908d8cf62567ce5c09"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDPdq8xjAhytYqfGSX8KcFWIReCufsB9Wdg0pLlYSO_h76w",
+    "name": "Hipo Staked TON",
+    "symbol": "hTON",
+    "image": "https://assets.dedust.io/images/hton.webp",
+    "decimals": 9,
+    "source": {
+      "chain": "eip155:1",
+      "address": "",
+      "bridge": "none",
+      "symbol": "hTON",
+      "name": "Hipo Staked TON"
+    },
+    "rawAddress": "0:cf76af318c0872b58a9f1925fc29c156211782b9fb01f56760d292e56123bf87"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAmXCLQN6PcgKMhK91_bAPqbSvyiCw4eZRAIStkSi7fUaRA",
+    "name": "Goy Token",
+    "symbol": "GOY",
+    "image": "https://assets.dedust.io/images/goy.webp",
+    "decimals": 9,
+    "rawAddress": "0:265c22d037a3dc80a3212bdd7f6c03ea6d2bf2882c38799440212b644a2edf51"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCnhewfpFblzaE-pQpXxHSRgNz7R_YrF1YoAS8HFpwfH6XI",
+    "name": "Roosty",
+    "symbol": "ROOSTY",
+    "image": "https://assets.dedust.io/images/roosty.webp",
+    "decimals": 9,
+    "rawAddress": "0:a785ec1fa456e5cda13ea50a57c4749180dcfb47f62b175628012f07169c1f1f"
+  },
+  {
+    "type": "jetton",
+    "address": "EQD7THgw9GZ7udZzjzwiBXMHEKSCHiElKEHjn_-lcXoGApel",
+    "name": "xCryproMarket",
+    "symbol": "XCM",
+    "image": "https://assets.dedust.io/images/xcm.webp",
+    "decimals": 9,
+    "rawAddress": "0:fb4c7830f4667bb9d6738f3c2205730710a4821e21252841e39fffa5717a0602"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAuco5ZEPgB19fSTo7EmtLTJysrKxbu6M_XOFDwWQiNjCsQ",
+    "name": "DOGWIFHOOD",
+    "symbol": "WIF",
+    "image": "https://assets.dedust.io/images/wif.webp",
+    "decimals": 9,
+    "rawAddress": "0:2e728e5910f801d7d7d24e8ec49ad2d3272b2b2b16eee8cfd73850f059088d8c"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDQEsrlf5ALa7-Gpz2nDK6t332bcyQoP0BzHj2KKTrXYVYB",
+    "name": "REKT",
+    "symbol": "REKT",
+    "image": "https://assets.dedust.io/images/rekt.webp",
+    "decimals": 9,
+    "rawAddress": "0:d012cae57f900b6bbf86a73da70caeaddf7d9b7324283f40731e3d8a293ad761"
+  },
+  {
+    "type": "jetton",
+    "address": "EQC7rnHHtMVBKyhiGnAbtYIlzGxS0dfi3ZbHExFX0LYi9cAH",
+    "name": "@BTC25",
+    "symbol": "BTC25",
+    "image": "https://assets.dedust.io/images/btc25.webp",
+    "decimals": 9,
+    "rawAddress": "0:bbae71c7b4c5412b28621a701bb58225cc6c52d1d7e2dd96c7131157d0b622f5"
+  },
+  {
+    "type": "jetton",
+    "address": "EQA79IISXMR8ve9AOipUE3i5htp6z6I7ynSC9DKBo8zHsIYr",
+    "name": "MagicDeer",
+    "symbol": "DEER",
+    "image": "https://assets.dedust.io/images/deer.webp",
+    "decimals": 9,
+    "rawAddress": "0:3bf482125cc47cbdef403a2a541378b986da7acfa23bca7482f43281a3ccc7b0"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDK3ReFkb6L3uE3GmMDJaxWby4PA_UYGClgFfJuXY52-TOK",
+    "name": "Slowpoke",
+    "symbol": "SLOW",
+    "image": "https://assets.dedust.io/images/slow.webp",
+    "decimals": 9,
+    "rawAddress": "0:cadd178591be8bdee1371a630325ac566f2e0f03f51818296015f26e5d8e76f9"
+  },
+  {
+    "type": "jetton",
+    "address": "EQARmDybfEvyI_r3JW7zZAV-VTz8pWvseuIWpjYqQA44ui9r",
+    "name": "FlokiTon",
+    "symbol": "FLOKIT",
+    "image": "https://assets.dedust.io/images/flokit.webp",
+    "decimals": 9,
+    "rawAddress": "0:11983c9b7c4bf223faf7256ef364057e553cfca56bec7ae216a6362a400e38ba"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAzqUYA_QbvX2GkUaUu6wl6TTcwy5gytvUp2gqw9FVTLGfY",
+    "name": "GOPNIK CATS",
+    "symbol": "KORM",
+    "image": "https://assets.dedust.io/images/korm.webp",
+    "decimals": 9,
+    "rawAddress": "0:33a94600fd06ef5f61a451a52eeb097a4d3730cb9832b6f529da0ab0f455532c"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCtnNdPnA4NTt4XQ_M21dKyoUR7da_SX7uqtO-wh1HeqsX4",
+    "name": "indicaTon",
+    "symbol": "ICTN",
+    "image": "https://assets.dedust.io/images/ictn.webp",
+    "decimals": 9,
+    "rawAddress": "0:ad9cd74f9c0e0d4ede1743f336d5d2b2a1447b75afd25fbbaab4efb08751deaa"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBB-EMREJkIHVYG5DPiklOhWPcsCaxjL9HKmgRvuGtz_1lu",
+    "name": "Nobby Game",
+    "symbol": "SOX",
+    "image": "https://assets.dedust.io/images/sox.webp",
+    "decimals": 9,
+    "rawAddress": "0:41f843111099081d5606e433e29253a158f72c09ac632fd1ca9a046fb86b73ff"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDdKkzOKps7IlK0Fv4EJmHDIvOZQ7LtsCa-ve4qJpopF4oq",
+    "name": "CookieToken",
+    "symbol": "COOKIE",
+    "image": "https://assets.dedust.io/images/cookie.webp",
+    "decimals": 9,
+    "rawAddress": "0:dd2a4cce2a9b3b2252b416fe042661c322f39943b2edb026bebdee2a269a2917"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCgW3iMiYqkqBjqYR391w525-3pnFzVstHlbZ4dkulW_oz5",
+    "name": "MiDtoken",
+    "symbol": "MID",
+    "image": "https://assets.dedust.io/images/mid.webp",
+    "decimals": 9,
+    "rawAddress": "0:a05b788c898aa4a818ea611dfdd70e76e7ede99c5cd5b2d1e56d9e1d92e956fe"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDoqIKkOevVZukmf1L8nGhcjlha4sfvgl8GIRpTj_b53HyR",
+    "name": "Pizza Gram",
+    "symbol": "PIZZA",
+    "image": "https://assets.dedust.io/images/pizza.webp",
+    "decimals": 9,
+    "rawAddress": "0:e8a882a439ebd566e9267f52fc9c685c8e585ae2c7ef825f06211a538ff6f9dc"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAl0ChJyynGWg0tGMCBM6soeKJrKtNm_IATf17jcFEQx0Ww",
+    "name": "povel durev (old)",
+    "symbol": "DUREVOLD",
+    "image": "https://assets.dedust.io/images/durev-old.webp",
+    "decimals": 9,
+    "rawAddress": "0:25d02849cb29c65a0d2d18c08133ab2878a26b2ad366fc80137f5ee3705110c7"
+  },
+  {
+    "type": "jetton",
+    "address": "EQB02DJ0cdUD4iQDRbBv4aYG3htePHBRK1tGeRtCnatescK0",
+    "name": "povel durev",
+    "symbol": "DUREV",
+    "image": "https://assets.dedust.io/images/durev.webp",
+    "decimals": 9,
+    "rawAddress": "0:74d8327471d503e2240345b06fe1a606de1b5e3c70512b5b46791b429dab5eb1"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBN2iDBrdAVRXz95RJbcftDCYZYDZmiWB4cbyZDj8h7Xn6c",
+    "name": "Billionaire Boys Club",
+    "symbol": "BBC",
+    "image": "https://assets.dedust.io/images/bbc.webp",
+    "decimals": 9,
+    "rawAddress": "0:4dda20c1add015457cfde5125b71fb430986580d99a2581e1c6f26438fc87b5e"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBzX9AKtu4EPjHcK9KJ6dytJUjllgR_BUTHkBwDA8gkvK2l",
+    "name": "Memecoin",
+    "symbol": "MEME",
+    "image": "https://assets.dedust.io/images/meme.webp",
+    "decimals": 2,
+    "rawAddress": "0:735fd00ab6ee043e31dc2bd289e9dcad2548e596047f0544c7901c0303c824bc"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDQ2oBzTO4Itn9mmu3TL1v5TUiPS9PuAIVEq1xMpLHeeEsI",
+    "name": "Only one token",
+    "symbol": "NANO",
+    "image": "https://assets.dedust.io/images/nano.webp",
+    "decimals": 9,
+    "rawAddress": "0:d0da80734cee08b67f669aedd32f5bf94d488f4bd3ee008544ab5c4ca4b1de78"
+  },
+  {
+    "type": "jetton",
+    "address": "EQA9dayEKflrL-wIf-GKGizj26pvX0QCIxwmRgqzg5U_c3YB",
+    "name": "Coffee",
+    "symbol": "COFE",
+    "image": "https://assets.dedust.io/images/cofe.webp",
+    "decimals": 9,
+    "rawAddress": "0:3d75ac8429f96b2fec087fe18a1a2ce3dbaa6f5f4402231c26460ab383953f73"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDv-yr41_CZ2urg2gfegVfa44PDPjIK9F-MilEDKDUIhlwZ",
+    "name": "ANON",
+    "symbol": "ANON",
+    "image": "https://assets.dedust.io/images/anon.webp",
+    "decimals": 9,
+    "rawAddress": "0:effb2af8d7f099daeae0da07de8157dae383c33e320af45f8c8a510328350886"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBenWCdMBAILriH8yPX9bfmjcZlmer1JgRDHDWblDK13TOp",
+    "name": "ChipiCoin",
+    "symbol": "CHAPA",
+    "image": "https://assets.dedust.io/images/chapa.webp",
+    "decimals": 9,
+    "rawAddress": "0:5e9d609d3010082eb887f323d7f5b7e68dc66599eaf52604431c359b9432b5dd"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBtv7I3pZpMAUChef2Vrk-U1GcCE00rROuHgMJ9CvjodRZW",
+    "name": "Bear Coin",
+    "symbol": "BEAR",
+    "image": "https://assets.dedust.io/images/bear.webp",
+    "decimals": 9,
+    "rawAddress": "0:6dbfb237a59a4c0140a179fd95ae4f94d46702134d2b44eb8780c27d0af8e875"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAVw-6sK7NJepSjgH1gW60lYEkHYzSmK9pHbXstCClDY4BV",
+    "name": "meh",
+    "symbol": "MEH",
+    "image": "https://assets.dedust.io/images/meh.webp",
+    "decimals": 9,
+    "rawAddress": "0:15c3eeac2bb3497a94a3807d605bad256049076334a62bda476d7b2d08294363"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBTUH6cdozp2TWujAqamNjgmCrXcV7FraQ6KieDu7pYsMjm",
+    "name": "DEANON",
+    "symbol": "DEANON",
+    "image": "https://assets.dedust.io/images/deanon.webp",
+    "decimals": 9,
+    "rawAddress": "0:53507e9c768ce9d935ae8c0a9a98d8e0982ad7715ec5ada43a2a2783bbba58b0"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAhPcpyfkhv2MPUxYm37g-NjZpBrp-hO-XEpOVkgOLAE2hS",
+    "name": "Pun Dog",
+    "symbol": "PUN",
+    "image": "https://assets.dedust.io/images/pun.webp",
+    "decimals": 9,
+    "rawAddress": "0:213dca727e486fd8c3d4c589b7ee0f8d8d9a41ae9fa13be5c4a4e56480e2c013"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAEfUNvB01k3khyyMJeQu6Y609TOPtm_-Mn0-12NJb4SXwR",
+    "name": "Infinity",
+    "symbol": "INFT",
+    "image": "https://assets.dedust.io/images/inft.webp",
+    "decimals": 9,
+    "rawAddress": "0:047d436f074d64de4872c8c25e42ee98eb4f5338fb66ffe327d3ed763496f849"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBXP-cvi8iocxZ4mooU_RzT6P7znZoQ1BDGCxpuEvrczL95",
+    "name": "Ryan Gosling",
+    "symbol": "GOSLING",
+    "image": "https://assets.dedust.io/images/gosling.webp",
+    "decimals": 9,
+    "rawAddress": "0:573fe72f8bc8a87316789a8a14fd1cd3e8fef39d9a10d410c60b1a6e12fadccc"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCtxbfa9bVXn7wsfK5V72fX1RFuc8kFDF7piMioWENgEBx5",
+    "name": "SquidTG",
+    "symbol": "SQD",
+    "image": "https://assets.dedust.io/images/sqd.webp",
+    "decimals": 9,
+    "rawAddress": "0:adc5b7daf5b5579fbc2c7cae55ef67d7d5116e73c9050c5ee988c8a858436010"
+  },
+  {
+    "type": "jetton",
+    "address": "EQA6Y0rWysG4HWmros7V-z7NrjErvyCwvNVFlvyEjLHv5PJe",
+    "name": "Squid Egg",
+    "symbol": "SQG",
+    "image": "https://assets.dedust.io/images/sqg.webp",
+    "decimals": 0,
+    "rawAddress": "0:3a634ad6cac1b81d69aba2ced5fb3ecdae312bbf20b0bcd54596fc848cb1efe4"
+  },
+  {
+    "type": "jetton",
+    "address": "EQB087W3GWe2FIJPgoyI30Mf5d1hNBfqLc2s7wFTJJsX6qY_",
+    "name": "Ruslon Skamolovsky",
+    "symbol": "RUSLON",
+    "image": "https://assets.dedust.io/images/ruslon.webp",
+    "decimals": 9,
+    "rawAddress": "0:74f3b5b71967b614824f828c88df431fe5dd613417ea2dcdacef0153249b17ea"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBam5RuB3inYXsUlamTIEqu-tNy5NmX4FBLAcZe_360eWWE",
+    "name": "Ton Hamster",
+    "symbol": "HMSTR",
+    "image": "https://assets.dedust.io/images/hmstr.webp",
+    "decimals": 9,
+    "rawAddress": "0:5a9b946e0778a7617b1495a993204aaefad372e4d997e0504b01c65eff7eb479"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCXzO7HhoK5fDQuCONE43l8-Qsreq5zq89ZVNhEna24eK-h",
+    "name": "PEPE TON",
+    "symbol": "PEPE",
+    "image": "https://assets.dedust.io/images/pepe.webp",
+    "decimals": 9,
+    "rawAddress": "0:97cceec78682b97c342e08e344e3797cf90b2b7aae73abcf5954d8449dadb878"
+  },
+  {
+    "type": "jetton",
+    "address": "EQARb2CYeCT73K-a_cWXycgbcWlleEx4fq4RCbZ7cWBtPN8s",
+    "name": "BOLTWIFSOCK",
+    "symbol": "SOCK",
+    "image": "https://assets.dedust.io/images/sock.webp",
+    "decimals": 9,
+    "rawAddress": "0:116f60987824fbdcaf9afdc597c9c81b716965784c787eae1109b67b71606d3c"
+  },
+  {
+    "type": "jetton",
+    "address": "EQB9e2RJaJnX_tALDBSyIb5oj0YHJLa8FncsF-5MjXolbUzC",
+    "name": "GM",
+    "symbol": "GM",
+    "image": "https://assets.dedust.io/images/gm.webp",
+    "decimals": 9,
+    "rawAddress": "0:7d7b64496899d7fed00b0c14b221be688f460724b6bc16772c17ee4c8d7a256d"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCDkrpCu-FFVPQJnManjlf8XCN75wjX_AKrrEFFQ1mfJqZo",
+    "name": "Yoken",
+    "symbol": "YO",
+    "image": "https://assets.dedust.io/images/yo.webp",
+    "decimals": 9,
+    "rawAddress": "0:8392ba42bbe14554f4099cc6a78e57fc5c237be708d7fc02abac414543599f26"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAWpz2_G0NKxlG2VvgFbgZGPt8Y1qe0cGj-4Yw5BfmYR5iF",
+    "name": "Not Meme",
+    "symbol": "MEM",
+    "image": "https://assets.dedust.io/images/mem.webp",
+    "decimals": 9,
+    "rawAddress": "0:16a73dbf1b434ac651b656f8056e06463edf18d6a7b47068fee18c3905f99847"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBdr5b7csZbXhDnQ5U364bpLylHfk8AWcug8TwhzCMVcvPA",
+    "name": "Rosecoin",
+    "symbol": "ROSE",
+    "image": "https://assets.dedust.io/images/rose.webp",
+    "decimals": 9,
+    "rawAddress": "0:5daf96fb72c65b5e10e7439537eb86e92f29477e4f0059cba0f13c21cc231572"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAaJybAsdcXbeW_PsrQZElZWE4x8mLkL9s58kIc0OtpCWFO",
+    "name": "TON Degen",
+    "symbol": "DGN",
+    "image": "https://assets.dedust.io/images/dgn.webp",
+    "decimals": 9,
+    "rawAddress": "0:1a2726c0b1d7176de5bf3ecad0644959584e31f262e42fdb39f2421cd0eb6909"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDHl2sVhrY4lvdHFLzuSvGogXuSim206UvXHNwFR88hCiyh",
+    "name": "Salo",
+    "symbol": "SALO",
+    "image": "https://assets.dedust.io/images/salo.webp",
+    "decimals": 9,
+    "rawAddress": "0:c7976b1586b63896f74714bcee4af1a8817b928a6db4e94bd71cdc0547cf210a"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCcYUWKhjGxwqtk_je9LW2V4RoFmbhOUR9e404Y6FQTEXHh",
+    "name": "The Resistance Girl",
+    "symbol": "REGI",
+    "image": "https://assets.dedust.io/images/regi.webp",
+    "decimals": 9,
+    "rawAddress": "0:9c61458a8631b1c2ab64fe37bd2d6d95e11a0599b84e511f5ee34e18e8541311"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBhRoPmOImcU2e3CLKD6eCZ_PfOz2iYFcOY3139HUUx0phP",
+    "name": "Dubai #2049",
+    "symbol": "DUBAI",
+    "image": "https://assets.dedust.io/images/dubai.webp",
+    "decimals": 9,
+    "rawAddress": "0:614683e638899c5367b708b283e9e099fcf7cecf689815c398df5dfd1d4531d2"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAzBy-W8GJjUPfU-8eV0Jz56Jc5dIvvP-qznHKQhlqzGkoZ",
+    "name": "AIYA PowerCell",
+    "symbol": "APC",
+    "image": "https://assets.dedust.io/images/apc.webp",
+    "decimals": 9,
+    "rawAddress": "0:33072f96f0626350f7d4fbc795d09cf9e89739748bef3feab39c7290865ab31a"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBphnWv7EkQvjIkGPjMNacYtXo2dEqFIybPTf8IxyBGjNSz",
+    "name": "Dogecoin TON",
+    "symbol": "DOGE",
+    "image": "https://assets.dedust.io/images/doge.webp",
+    "decimals": 9,
+    "rawAddress": "0:698675afec4910be322418f8cc35a718b57a36744a852326cf4dff08c720468c"
+  },
+  {
+    "type": "jetton",
+    "address": "EQC7zE2BVcLiybBMuQ1giOPYmO4Ji88J12r7duqMJWOtFxtr",
+    "name": "Epidemy",
+    "symbol": "VIRUS",
+    "image": "https://assets.dedust.io/images/virus.webp",
+    "decimals": 9,
+    "rawAddress": "0:bbcc4d8155c2e2c9b04cb90d6088e3d898ee098bcf09d76afb76ea8c2563ad17"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCTWKZUR3BlJ-jnT_GE8RtERDOMQ1los7-Up3ipQkTi700i",
+    "name": "Capybara",
+    "symbol": "CPBR",
+    "image": "https://assets.dedust.io/images/cpbr.webp",
+    "decimals": 9,
+    "rawAddress": "0:9358a65447706527e8e74ff184f11b4444338c435968b3bf94a778a94244e2ef"
+  },
+  {
+    "type": "jetton",
+    "address": "EQB8T1ylyks0DFFkUUC2KeFlzXMm-xDjvv6wDDRXLr6jTPRz",
+    "name": "PUGWIFJET",
+    "symbol": "PWJ",
+    "image": "https://assets.dedust.io/images/pwj.webp",
+    "decimals": 9,
+    "rawAddress": "0:7c4f5ca5ca4b340c51645140b629e165cd7326fb10e3befeb00c34572ebea34c"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDdCha_K-Z97lKl599O0GDAt0py2ZUuons4Wuf85tq6NXIO",
+    "name": "Du Rove’s Wall",
+    "symbol": "WALL",
+    "image": "https://assets.dedust.io/images/wall.webp",
+    "decimals": 9,
+    "rawAddress": "0:dd0a16bf2be67dee52a5e7df4ed060c0b74a72d9952ea27b385ae7fce6daba35"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBc-L5CzzRKmR3-TdOwBm4l-XyJdxJt3HfAIr_qMiKaB7WM",
+    "name": "DEPOSIT",
+    "symbol": "DEPOSIT",
+    "image": "https://assets.dedust.io/images/deposit.webp",
+    "decimals": 9,
+    "rawAddress": "0:5cf8be42cf344a991dfe4dd3b0066e25f97c8977126ddc77c022bfea32229a07"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDNJzbNKA8Ix2X7Tv1_jxdCqehPQgJaNbisoIkSq5srnfLs",
+    "name": "Burncoin",
+    "symbol": "BURN",
+    "image": "https://assets.dedust.io/images/burn.webp",
+    "decimals": 9,
+    "rawAddress": "0:cd2736cd280f08c765fb4efd7f8f1742a9e84f42025a35b8aca08912ab9b2b9d"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDWuR1l5EbiGPf2_7VK0davJ6bkXwi4STx8VfaMqrJkd0tm",
+    "name": "Diablo Gato",
+    "symbol": "GATO",
+    "image": "https://assets.dedust.io/images/gato.webp",
+    "decimals": 9,
+    "rawAddress": "0:d6b91d65e446e218f7f6ffb54ad1d6af27a6e45f08b8493c7c55f68caab26477"
+  },
+  {
+    "type": "jetton",
+    "address": "EQB0apV-NyCYJDVwSBoDL86Xjp0OiwcyD8jJ0J5BVWnnDJu7",
+    "name": "OPEN",
+    "symbol": "OPEN",
+    "image": "https://assets.dedust.io/images/open-1.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:746a957e372098243570481a032fce978e9d0e8b07320fc8c9d09e415569e70c"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAOLOJ9jhS1RmzEQwayCcD_8glZhI3m7lNOfoNTUhP4Ta8n",
+    "name": "adDICKted",
+    "symbol": "DICK",
+    "image": "https://assets.dedust.io/images/dick.webp",
+    "decimals": 9,
+    "rawAddress": "0:0e2ce27d8e14b5466cc44306b209c0fff20959848de6ee534e7e83535213f84d"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBecg3E6822M1aZOZhqzMWaSRGP712sDRkQgHO4MSgDRDHq",
+    "name": "INSECT",
+    "symbol": "INS",
+    "image": "https://assets.dedust.io/images/ins.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:5e720dc4ebcdb633569939986accc59a49118fef5dac0d19108073b831280344"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAdz16aPWCmAYldTiX_g-NRzT-spbN8tCk9dJIHfAiC3L4p",
+    "name": "CARDIFY Coin",
+    "symbol": "CRDF",
+    "image": "https://assets.dedust.io/images/crdf.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:1dcf5e9a3d60a601895d4e25ff83e351cd3faca5b37cb4293d7492077c0882dc"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDBrZm6Gkh8s3Y92NfUKh71ZwhKZmZw0IgE1j3e6ZAfuqbd",
+    "name": "SHIC Coin",
+    "symbol": "SHIC",
+    "image": "https://assets.dedust.io/images/shic.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:c1ad99ba1a487cb3763dd8d7d42a1ef567084a666670d08804d63ddee9901fba"
+  },
+  {
+    "type": "jetton",
+    "address": "EQApavswugkXNSg2pKxIQXczMOjZc2Mg0t3j_KuCmSBRBTBw",
+    "name": "PUPA",
+    "symbol": "PUPA",
+    "image": "https://assets.dedust.io/images/pupa.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:296afb30ba0917352836a4ac4841773330e8d9736320d2dde3fcab8299205105"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBXRzatxryKKnW6mNGEZiEFMGET655W40ROx1qnZP-S_-p6",
+    "name": "LUPA",
+    "symbol": "LUPA",
+    "image": "https://assets.dedust.io/images/lupa.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:574736adc6bc8a2a75ba98d184662105306113eb9e56e3444ec75aa764ff92ff"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAjQBt5h8SzLugDGp-75IiePuddLU32FGR4H3F3zPSLw7oL",
+    "name": "TLB500 Index",
+    "symbol": "TLB500",
+    "image": "https://assets.dedust.io/images/tlb500.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:23401b7987c4b32ee8031a9fbbe4889e3ee75d2d4df61464781f7177ccf48bc3"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDJXgXvdkTCG0N6-e6B1-fl1U1LnPHMYpqio3UEA9KAZ07j",
+    "name": "LLAMA",
+    "symbol": "LLAMA",
+    "image": "https://assets.dedust.io/images/llama.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:c95e05ef7644c21b437af9ee81d7e7e5d54d4b9cf1cc629aa2a3750403d28067"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBCoynGYslAMjv_gRl_2_B1KMOvh9ZW-ae0p7SaXZy6KFjY",
+    "name": "GoiCoin 2",
+    "symbol": "GOI",
+    "image": "https://assets.dedust.io/images/goi-2.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:42a329c662c940323bff81197fdbf07528c3af87d656f9a7b4a7b49a5d9cba28"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDWEsV8ZD83HhpJBLWuB_r55XLwNCpZwcBo-UGNthcJtboi",
+    "name": "ARUTCOIN",
+    "symbol": "ARUT",
+    "image": "https://assets.dedust.io/images/arut.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:d612c57c643f371e1a4904b5ae07faf9e572f0342a59c1c068f9418db61709b5"
+  },
+  {
+    "type": "jetton",
+    "address": "EQB4gPfG0YtoiJHCMTUuzxP9fKXy9nx6TFh-dcAltrnNpLNo",
+    "name": "Shitcoin",
+    "symbol": "SHIT",
+    "image": "https://assets.dedust.io/images/shit.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:7880f7c6d18b688891c231352ecf13fd7ca5f2f67c7a4c587e75c025b6b9cda4"
+  },
+  {
+    "type": "jetton",
+    "address": "EQB2ho8cuNzitlhg_H29pOHUxRD-VlxvIbN0ZVORNh8REGre",
+    "name": "Donut The Dog",
+    "symbol": "DONUT",
+    "image": "https://assets.dedust.io/images/donut.webp",
+    "decimals": 6,
+    "aliased": false,
+    "rawAddress": "0:76868f1cb8dce2b65860fc7dbda4e1d4c510fe565c6f21b374655391361f1110"
+  },
+  {
+    "type": "jetton",
+    "address": "EQB-i1kqPz_MitkRCOzzgDf0_doxahk1bUPVAGjm49zMozOd",
+    "name": "Ton Croco",
+    "symbol": "CROCO",
+    "image": "https://assets.dedust.io/images/croco.webp",
+    "decimals": 6,
+    "aliased": false,
+    "rawAddress": "0:7e8b592a3f3fcc8ad91108ecf38037f4fdda316a19356d43d50068e6e3dccca3"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCObh4-ZaghOva8uCz_AMMnvifM3PS-EppUJEJQXXnlP0zX",
+    "name": "Whiskers",
+    "symbol": "WHISK",
+    "image": "https://assets.dedust.io/images/whisk.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:8e6e1e3e65a8213af6bcb82cff00c327be27ccdcf4be129a542442505d79e53f"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDByR6xbRrTWIQFKfeBIjkIWLvnrlenGV97kiV3sEXRpT8E",
+    "name": "Outback Jack",
+    "symbol": "JACK",
+    "image": "https://assets.dedust.io/images/jack.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:c1c91eb16d1ad358840529f78122390858bbe7ae57a7195f7b922577b045d1a5"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDVkOpW-r6RiRYSpGRKnVvvf8YQkA-X9ZLZxtddaQldVzg6",
+    "name": "Ton Cuphead",
+    "symbol": "TONCUP",
+    "image": "https://assets.dedust.io/images/toncup.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:d590ea56fabe91891612a4644a9d5bef7fc610900f97f592d9c6d75d69095d57"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDtqSANqK4LqgDk4f_q9mIvOaVy212ulavP9em2eYwKOiJw",
+    "name": "DAOLegion",
+    "symbol": "LGN24",
+    "image": "https://assets.dedust.io/images/lgn24.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:eda9200da8ae0baa00e4e1ffeaf6622f39a572db5dae95abcff5e9b6798c0a3a"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBwJaB-51Efd1CraJskTAkx2NDZHf71ONWUlJl-KIGOzs4b",
+    "name": "Telegram's Dog",
+    "symbol": "REMY",
+    "image": "https://assets.dedust.io/images/remy.webp",
+    "decimals": 6,
+    "aliased": false,
+    "rawAddress": "0:7025a07ee7511f7750ab689b244c0931d8d0d91dfef538d59494997e28818ece"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAejag_GBPBdSpVZGcWrSQuZmDQxaYJCsHzB0RQTeyEa0Nh",
+    "name": "JETMOON",
+    "symbol": "JMT",
+    "image": "https://assets.dedust.io/images/jmt.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:1e8da83f1813c1752a55646716ad242e6660d0c5a6090ac1f30744504dec846b"
+  },
+  {
+    "type": "jetton",
+    "address": "EQD2OT38svz8BF_c4OVPMV83uuNnjlDJ3vfKSpMwq-r-b1Bq",
+    "name": "MARIO",
+    "symbol": "MARIO",
+    "image": "https://assets.dedust.io/images/mario.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:f6393dfcb2fcfc045fdce0e54f315f37bae3678e50c9def7ca4a9330abeafe6f"
+  },
+  {
+    "type": "jetton",
+    "address": "EQB4vbSuNkcvZiq0Z-XA3bVCfN5hj5cBivFJA9pPCtOotAfE",
+    "name": "RULO CMO",
+    "symbol": "RULO",
+    "image": "https://assets.dedust.io/images/rulo.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:78bdb4ae36472f662ab467e5c0ddb5427cde618f97018af14903da4f0ad3a8b4"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBwy-wJ-wCqh0mfJHoWjmulJ0oIRKEJJt75ULyrJNPcnn5z",
+    "name": "Telegram's Cat",
+    "symbol": "MITTENS",
+    "image": "https://assets.dedust.io/images/mittens.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:70cbec09fb00aa87499f247a168e6ba5274a0844a10926def950bcab24d3dc9e"
+  },
+  {
+    "type": "jetton",
+    "address": "EQA4YM9cFn4swQUfF9BgUFb7UDYs7hfWG9rMhXUn6Wp1G0Kx",
+    "name": "FUCK MORGENSHTERN",
+    "symbol": "FKMORGEN",
+    "image": "https://assets.dedust.io/images/fkmorgen.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:3860cf5c167e2cc1051f17d0605056fb50362cee17d61bdacc857527e96a751b"
+  },
+  {
+    "type": "jetton",
+    "address": "EQD5rGGgViI16nT5nL0auCwZlTPCbwCOIjNkIx1oLW12tFgo",
+    "name": "Volodemer",
+    "symbol": "PUTEN",
+    "image": "https://assets.dedust.io/images/puten.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:f9ac61a0562235ea74f99cbd1ab82c199533c26f008e223364231d682d6d76b4"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDhnXQgjkymx2DgbcLZqvLClyBEsFAAr-RotkrXhf1OD3Gp",
+    "name": "Andy",
+    "symbol": "ANDY",
+    "image": "https://assets.dedust.io/images/andy.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:e19d74208e4ca6c760e06dc2d9aaf2c2972044b05000afe468b64ad785fd4e0f"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBZGBxlhSpBzQfFdj7AqJa6tIavsCaFBYDl2C5J5TIFecrH",
+    "name": "Ton Trump",
+    "symbol": "TRUMP",
+    "image": "https://assets.dedust.io/images/trump.webp",
+    "decimals": 6,
+    "aliased": false,
+    "rawAddress": "0:59181c65852a41cd07c5763ec0a896bab486afb026850580e5d82e49e5320579"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBcZmaHu2Q5e9rGFMntm-8U1s7O-IV2zDoj0naJ02lbNnlC",
+    "name": "AIMLAB",
+    "symbol": "AIM",
+    "image": "https://assets.dedust.io/images/aim.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:5c666687bb64397bdac614c9ed9bef14d6cecef88576cc3a23d27689d3695b36"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDeXL9S-ApGesQUbBLYi2RGS9UpWfABGAF8jEDh_6XQjOR6",
+    "name": "Melon",
+    "symbol": "MELON",
+    "image": "https://assets.dedust.io/images/melon.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:de5cbf52f80a467ac4146c12d88b64464bd52959f00118017c8c40e1ffa5d08c"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBFDgg6O1_iZoOqSgZanzQ99jI0tRpeClSZxrDU_o2zvRX5",
+    "name": "NOTGEM",
+    "symbol": "NOTGEM",
+    "image": "https://assets.dedust.io/images/notgem.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:450e083a3b5fe26683aa4a065a9f343df63234b51a5e0a5499c6b0d4fe8db3bd"
+  },
+  {
+    "type": "jetton",
+    "address": "EQABBW_uifkTMvvR0PHq3NoNHDTDoEgSMToU8oaTkO-Hif5A",
+    "name": "Ape by Ton",
+    "symbol": "TAPE",
+    "image": "https://assets.dedust.io/images/tape.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:01056fee89f91332fbd1d0f1eadcda0d1c34c3a04812313a14f2869390ef8789"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCcEQH9OHZtygJpWAaFiYu-OoEVQjSJz6Dy_0U9hEySyO4U",
+    "name": "WINKO",
+    "symbol": "WINKO",
+    "image": "https://assets.dedust.io/images/winko.webp",
+    "decimals": 0,
+    "aliased": false,
+    "rawAddress": "0:9c1101fd38766dca0269580685898bbe3a8115423489cfa0f2ff453d844c92c8"
+  },
+  {
+    "type": "jetton",
+    "address": "EQD-LW9jU2btSu_clrc-cXJaHJS6LKJ69QMcpLbFFPUxc4Ux",
+    "name": "Nikolai KOT Durov",
+    "symbol": "KOT",
+    "image": "https://assets.dedust.io/images/kot.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:fe2d6f635366ed4aefdc96b73e71725a1c94ba2ca27af5031ca4b6c514f53173"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDxRD-NX0xtsu2id0tufZLdxBNoiKkzjAQqBh65Zxq2IK48",
+    "name": "Baby Notcoin",
+    "symbol": "BBNOT",
+    "image": "https://assets.dedust.io/images/bbnot.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:f1443f8d5f4c6db2eda2774b6e7d92ddc4136888a9338c042a061eb9671ab620"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDOrg1GXObvpLoQSpnGxcb5wA42-V2CcFl6Pr25sVoJVmTv",
+    "name": "Hmmcoin",
+    "symbol": "HMM",
+    "image": "https://assets.dedust.io/images/hmm.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:ceae0d465ce6efa4ba104a99c6c5c6f9c00e36f95d8270597a3ebdb9b15a0956"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+    "name": "Notcoin",
+    "symbol": "NOT",
+    "image": "https://assets.dedust.io/images/not.webp",
+    "decimals": 9,
+    "aliased": true,
+    "rawAddress": "0:2f956143c461769579baef2e32cc2d7bc18283f40d20bb03e432cd603ac33ffc"
+  },
+  {
+    "type": "jetton",
+    "address": "EQC5zvSRzDAtL-kou3HpyVbOV_w-202wJi6Y0DwAM7GKmfCY",
+    "name": "NUTCOIN",
+    "symbol": "NUT",
+    "image": "https://assets.dedust.io/images/nut.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:b9cef491cc302d2fe928bb71e9c956ce57fc3edb4db0262e98d03c0033b18a99"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCF9oYxo37xCGX1DShZEweaVGJe6Kucp0ztKO6vCsRANDOM",
+    "name": "Random.tg",
+    "symbol": "RANDOM",
+    "image": "https://assets.dedust.io/images/random.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:85f68631a37ef10865f50d285913079a54625ee8ab9ca74ced28eeaf0ac44034"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCILWMtTu_ShFu0WPZnZx9SfCX70dTypBESubKMZUPQOd53",
+    "name": "GPU — M2M coin",
+    "symbol": "GPU",
+    "image": "https://assets.dedust.io/images/m2m.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:882d632d4eefd2845bb458f667671f527c25fbd1d4f2a41112b9b28c6543d039"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBa4nrNBX2LtJemhMXxkMPQpmCKNlt536SVleo1TYwcSdP7",
+    "name": "Russia Mascot",
+    "symbol": "MASCOT",
+    "image": "https://assets.dedust.io/images/mascot.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:5ae27acd057d8bb497a684c5f190c3d0a6608a365b79dfa49595ea354d8c1c49"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAaGlxC31YlSxzK_9hG3ka6UN1G9hbhXJI3STtfURHhIvsu",
+    "name": "TONY",
+    "symbol": "TNY",
+    "image": "https://assets.dedust.io/images/tony.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:1a1a5c42df56254b1ccaffd846de46ba50dd46f616e15c9237493b5f5111e122"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBeJxQ0mf54_wg3dSJzE6I44YorvVCHrjLSRTTkVdjL2VYj",
+    "name": "TON BOGE MEMECOIN",
+    "symbol": "BOGE",
+    "image": "https://assets.dedust.io/images/boge.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:5e27143499fe78ff083775227313a238e18a2bbd5087ae32d24534e455d8cbd9"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDqrKJj1ZQeGTHSmjDkoe-1BrvKJ3tJzjWo-6y63lfvVU9R",
+    "name": "Twister The Dog",
+    "symbol": "TWIDO",
+    "image": "https://assets.dedust.io/images/twido.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:eaaca263d5941e1931d29a30e4a1efb506bbca277b49ce35a8fbacbade57ef55"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCH44N73BXEhT8063KAK_27oComvJnmAaebso-dZoyAy6g_",
+    "name": "MMM2049",
+    "symbol": "MMM",
+    "image": "https://assets.dedust.io/images/mmm.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:87e3837bdc15c4853f34eb72802bfdbba02a26bc99e601a79bb28f9d668c80cb"
+  },
+  {
+    "type": "jetton",
+    "address": "EQBB7RWO0qzo6JhikXLjmKJc81IS4JR0cyc5bPAL_h0GGmxW",
+    "name": "Portal Network Token",
+    "symbol": "POE",
+    "image": "https://assets.dedust.io/images/poe.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:41ed158ed2ace8e898629172e398a25cf35212e094747327396cf00bfe1d061a"
+  },
+  {
+    "type": "jetton",
+    "address": "EQARgJ-aCPIyOr4WDckDVcdXQHRPAjTjBNatopiRS9FnUEmn",
+    "name": "MOLOKO",
+    "symbol": "MOLOKO",
+    "image": "https://assets.dedust.io/images/moloko.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:11809f9a08f2323abe160dc90355c75740744f0234e304d6ada298914bd16750"
+  },
+  {
+    "type": "jetton",
+    "address": "EQC8XkUEWb6bzbzE9eVaASoKUCyYA_CUQALGE15jWInEqla6",
+    "name": "PONKE TON",
+    "symbol": "PONKE",
+    "image": "https://assets.dedust.io/images/ponke.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:bc5e450459be9bcdbcc4f5e55a012a0a502c9803f0944002c6135e635889c4aa"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCl0S4xvoeGeFGijTzicSA8j6GiiugmJW5zxQbZTUntre-1",
+    "name": "swap.coffee",
+    "symbol": "CES",
+    "image": "https://assets.dedust.io/images/ces.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:a5d12e31be87867851a28d3ce271203c8fa1a28ae826256e73c506d94d49edad"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDE2iOVhvteBA8bCxywcmCOPVxJGltPhft8RYDTXiv4lmvM",
+    "name": "Engage ADS on Ton Open Network",
+    "symbol": "EAT",
+    "image": "https://assets.dedust.io/images/eat.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:c4da239586fb5e040f1b0b1cb072608e3d5c491a5b4f85fb7c4580d35e2bf896"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCXSMNX3OB5jPgOJkEzjYhm7FOBfkA3cg7paBqTYwzXrjIi",
+    "name": "Cubigator",
+    "symbol": "CUB",
+    "image": "https://assets.dedust.io/images/cub.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:9748c357dce0798cf80e2641338d8866ec53817e4037720ee9681a93630cd7ae"
+  },
+  {
+    "type": "jetton",
+    "address": "EQC2wH1I9MVQCWvVCNfA85N_TF3tSI50DEE597QNdO66rclf",
+    "name": "BROKIE ON TON",
+    "symbol": "BROTON",
+    "image": "https://assets.dedust.io/images/broton.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:b6c07d48f4c550096bd508d7c0f3937f4c5ded488e740c4139f7b40d74eebaad"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAgotSkX06MIW-A0ni5yKqeNlwc3nASnbO1dwGo-kwpg2Zg",
+    "name": "PizzaTon Token",
+    "symbol": "PTJ",
+    "image": "https://assets.dedust.io/images/pizzaton.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:20a2d4a45f4e8c216f80d278b9c8aa9e365c1cde70129db3b57701a8fa4c2983"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDqvdTKpRROsk1_iI-8Fxx1u7W54jRumGzgn0jQoJSY1bqX",
+    "name": "Riki",
+    "symbol": "RC",
+    "image": "https://assets.dedust.io/images/riki.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:eabdd4caa5144eb24d7f888fbc171c75bbb5b9e2346e986ce09f48d0a09498d5"
+  },
+  {
+    "type": "jetton",
+    "address": "EQC7vuKEYLdC72YhUWt3AUVA-Oi66Q1DxTHXH7r6pXaV50j7",
+    "name": "Baby Yoda",
+    "symbol": "YODA",
+    "image": "https://assets.dedust.io/images/yoda.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:bbbee28460b742ef6621516b77014540f8e8bae90d43c531d71fbafaa57695e7"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDqZlrARv4jPJpwzbYPNiOtD_CouWxeAGbp7awAzoezQImY",
+    "name": "Dimethyltryptamine",
+    "symbol": "DMT",
+    "image": "https://assets.dedust.io/images/dmt.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:ea665ac046fe233c9a70cdb60f3623ad0ff0a8b96c5e0066e9edac00ce87b340"
+  },
+  {
+    "type": "jetton",
+    "address": "EQD6W0raB1aGCr86pWd7-oWpA3QW2VXCJ9smlYcChkIhflt2",
+    "name": "CAVIAR COIN",
+    "symbol": "CAVI",
+    "image": "https://assets.dedust.io/images/cavi.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:fa5b4ada0756860abf3aa5677bfa85a9037416d955c227db269587028642217e"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCFVNlRb-NHHDQfv3Q9xvDXBLJlay855_xREsq5ZDX6KN-w",
+    "name": "MyTonWallet Coin",
+    "symbol": "MY",
+    "image": "https://assets.dedust.io/images/my.webp",
+    "decimals": 9,
+    "aliased": true,
+    "rawAddress": "0:8554d9516fe3471c341fbf743dc6f0d704b2656b2f39e7fc5112cab96435fa28"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDmj_i7VMXstzF9dTgQMyPKyvQIynYD0KJ7pI8v1LU400Rh",
+    "name": "Wonnie",
+    "symbol": "WON",
+    "image": "https://assets.dedust.io/images/wonnie.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:e68ff8bb54c5ecb7317d7538103323cacaf408ca7603d0a27ba48f2fd4b538d3"
+  },
+  {
+    "type": "jetton",
+    "address": "EQByVysfErmFFWpaCXIHU68SF0v6O0g59KWhrqxeBPDyjEQ_",
+    "name": "GOLD",
+    "symbol": "AGLD",
+    "image": "https://assets.dedust.io/images/agld.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:72572b1f12b985156a5a09720753af12174bfa3b4839f4a5a1aeac5e04f0f28c"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAik8dthQ2NheRlkvnCRJPuDcmGmitTeZEL9dNkKfQyffjo",
+    "name": "BEN",
+    "symbol": "BEN",
+    "image": "https://assets.dedust.io/images/ben.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:2293c76d850d8d85e46592f9c24493ee0dc9869a2b5379910bf5d36429f4327d"
+  },
+  {
+    "type": "jetton",
+    "address": "EQB22u_EPF5DyqtZRhjJ2YiZliN-w5ZCq6F_PY6Ia6bvi3Et",
+    "name": "Pavel Durov",
+    "symbol": "DUROV",
+    "image": "https://assets.dedust.io/images/durov.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:76daefc43c5e43caab594618c9d9889996237ec39642aba17f3d8e886ba6ef8b"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDUWu9M_5NR812aj5rI3FDBgnVbLyycvj-Fb_u0F__CLOSE",
+    "name": "Closecoin",
+    "symbol": "CLOSE",
+    "image": "https://assets.dedust.io/images/close.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:d45aef4cff9351f35d9a8f9ac8dc50c182755b2f2c9cbe3f856ffbb417ffc22c"
+  },
+  {
+    "type": "jetton",
+    "address": "EQD7rlGEfvNUXYbEwT-Ll7SUD7LuGkubUeU-TQXsShMwXY0H",
+    "name": "Saintcoin",
+    "symbol": "SAINT",
+    "image": "https://assets.dedust.io/images/saint.webp",
+    "decimals": 7,
+    "aliased": false,
+    "rawAddress": "0:fbae51847ef3545d86c4c13f8b97b4940fb2ee1a4b9b51e53e4d05ec4a13305d"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDRlQ8en7A2zsTuF7SdDOxMlZ_wFw0E7Eow3u9c4pSoe4Tg",
+    "name": "TGram",
+    "symbol": "TGRAM",
+    "image": "https://assets.dedust.io/images/tgram.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:d1950f1e9fb036cec4ee17b49d0cec4c959ff0170d04ec4a30deef5ce294a87b"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDhSXj-di6Wo6__Pqd51dHZHel0MQeaegmhCWm-tkwwtem8",
+    "name": "Microdiving",
+    "symbol": "MIC",
+    "image": "https://assets.dedust.io/images/mic.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:e14978fe762e96a3afff3ea779d5d1d91de97431079a7a09a10969beb64c30b5"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCCSdlx31KvjbsW-rHdgsLSLUdrj64aZI5DTBBHMeZIVulP",
+    "name": "DONALDTRUMP",
+    "symbol": "DTRUMP",
+    "image": "https://assets.dedust.io/images/dtrump.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:8249d971df52af8dbb16fab1dd82c2d22d476b8fae1a648e434c104731e64856"
+  },
+  {
+    "type": "jetton",
+    "address": "EQD9zg_jMBEjQCwKln1xOO4iaf6F4r4R6YgXWPqIeWKqrTqj",
+    "name": "Nuka Cola",
+    "symbol": "NC",
+    "image": "https://assets.dedust.io/images/nukacola.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:fdce0fe3301123402c0a967d7138ee2269fe85e2be11e9881758fa887962aaad"
+  },
+  {
+    "type": "jetton",
+    "address": "EQDXyN5QEtQJOGxYOpGmleB7uazJrl-Zzim2e77Su1nKYjJ-",
+    "name": "MOON",
+    "symbol": "MOON",
+    "image": "https://assets.dedust.io/images/moon.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:d7c8de5012d409386c583a91a695e07bb9acc9ae5f99ce29b67bbed2bb59ca62"
+  },
+  {
+    "type": "jetton",
+    "address": "EQA4-dwC_PyhZZkgoCDtMvaIIGPUXuOZFsH6q4N9xbaWFXvD",
+    "name": "MONKE",
+    "symbol": "MK",
+    "image": "https://assets.dedust.io/images/mk.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:38f9dc02fcfca1659920a020ed32f6882063d45ee39916c1faab837dc5b69615"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAQElB3trMwj0wCnVVYYFnJrbpwCO_NXDaTuj9aYigLovXw",
+    "name": "Wakeup DAO Token",
+    "symbol": "WAKEUP",
+    "image": "https://assets.dedust.io/images/wakeup.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:10125077b6b3308f4c029d55586059c9adba7008efcd5c3693ba3f5a62280ba2"
+  },
+  {
+    "type": "jetton",
+    "address": "EQAWy9ddqQJgwtCR-H4QsPOIcZsr55O-O6eI4sZj28dWzgLA",
+    "name": "Ton Doge Coin",
+    "symbol": "TonDoge",
+    "image": "https://assets.dedust.io/images/tondoge.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:16cbd75da90260c2d091f87e10b0f388719b2be793be3ba788e2c663dbc756ce"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCJLFpI0QR1QA_CYQ77Zm1_n85RDM4yLS46voZGRWbu9sbX",
+    "name": "Dog or Flower",
+    "symbol": "OR",
+    "image": "https://assets.dedust.io/images/or.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:892c5a48d10475400fc2610efb666d7f9fce510cce322d2e3abe86464566eef6"
+  },
+  {
+    "type": "jetton",
+    "address": "EQB8uhcKPm9IavIEzonGkPG85aIIXPonr5yPSesaXRnVU2JJ",
+    "name": "GAS000",
+    "symbol": "GAS000",
+    "image": "https://assets.dedust.io/images/gas000.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:7cba170a3e6f486af204ce89c690f1bce5a2085cfa27af9c8f49eb1a5d19d553"
+  },
+  {
+    "type": "jetton",
+    "address": "EQA2FHorTzvYpsM3t_6IqMuigpJZCB_-5H80CqbIIaULq272",
+    "name": "CHORRY",
+    "symbol": "CHORRY",
+    "image": "https://assets.dedust.io/images/chorry.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:36147a2b4f3bd8a6c337b7fe88a8cba2829259081ffee47f340aa6c821a50bab"
+  },
+  {
+    "type": "jetton",
+    "address": "EQCm-KzJ6kacK9lhrnOaHR-W1KJGm-H415bEgsI04IVTDM57",
+    "name": "PDF Miner Boost",
+    "symbol": "PDFB",
+    "image": "https://assets.dedust.io/images/pdfb.webp",
+    "decimals": 9,
+    "aliased": false,
+    "rawAddress": "0:a6f8acc9ea469c2bd961ae739a1d1f96d4a2469be1f8d796c482c234e085530c"
+  }
+]

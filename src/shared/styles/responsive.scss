@@ -1,0 +1,13 @@
+@import "./constants";
+
+@mixin mobile {
+	@media screen and (width <= $sm) {
+		@content;
+	}
+}
+
+@mixin desktop {
+	@media screen and (width >= $md) {
+		@content;
+	}
+}
