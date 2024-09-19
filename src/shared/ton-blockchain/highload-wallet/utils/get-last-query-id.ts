@@ -1,6 +1,6 @@
 import z from "zod";
 
-import { HighloadQueryId } from "@/app/lib/highload-wallet-v3/wrappers/HighloadQueryId";
+import { HighloadQueryId } from "@/lib/highload-wallet-v3/wrappers/HighloadQueryId";
 
 import { tonapiClient } from "../../api/ton-api";
 import { toRawAddress } from "../../utils/address";

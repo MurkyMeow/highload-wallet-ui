@@ -4,7 +4,7 @@ import env from "env-var";
 import TonWeb from "tonweb";
 import { retry } from "ts-retry-promise";
 
-import { HighloadWalletV3 } from "@/app/lib/highload-wallet-v3/wrappers/HighloadWalletV3";
+import { HighloadWalletV3 } from "@/lib/highload-wallet-v3/wrappers/HighloadWalletV3";
 import { logRetryError } from "@/shared/utils/log-retry-error/log-retry-error";
 
 import { tonClient } from "../../api/ton-client";
